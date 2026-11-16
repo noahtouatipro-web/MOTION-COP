@@ -149,11 +149,11 @@
   },
   "renders": {
     "latest": {
-      "id": "ee78a33f-b1eb-463d-a6f0-c51abe35bed5",
-      "completedAt": 1792586162030,
-      "output": "/home/user/MOTION-/videos/galzin-baguette/renders/galzin-baguette.mp4",
+      "id": "a1081872-57be-4fbc-86fc-1c1bba549af8",
+      "completedAt": 1794829989786,
+      "output": "/home/user/MOTION-COP/videos/galzin-baguette/renders/galzin-baguette.mp4",
       "status": "completed",
-      "revision": "60eb19df-0aad-443a-b207-fa0fe470c497"
+      "revision": null
     },
     "retainedRevisions": [
       "60eb19df-0aad-443a-b207-fa0fe470c497"

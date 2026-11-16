@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "75503059-554f-4856-a1c1-485c10bb3cf6",
-  "currentRevision": null,
+  "currentRevision": "3a47aac2-9db9-455e-93dd-daab0cc13216",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -45,8 +45,8 @@
       "content": "/root/.cache/hyperframes/history/75503059-554f-4856-a1c1-485c10bb3cf6/blobs/e5/e5da816b77f863aa4798d974bc68d65805329ca4d39ebcf353967c5b47e677a6"
     },
     "index.html": {
-      "hash": "88a59eaf547f1a468e68a6098aa1df4aceb3036cab9a9a954703c482cfce25ad",
-      "content": "/root/.cache/hyperframes/history/75503059-554f-4856-a1c1-485c10bb3cf6/blobs/88/88a59eaf547f1a468e68a6098aa1df4aceb3036cab9a9a954703c482cfce25ad"
+      "hash": "6fc16dfa0a99392088444faa60ba52d9f62855504564bcf0f56a0783de5c34e2",
+      "content": "/root/.cache/hyperframes/history/75503059-554f-4856-a1c1-485c10bb3cf6/blobs/6f/6fc16dfa0a99392088444faa60ba52d9f62855504564bcf0f56a0783de5c34e2"
     },
     "meta.json": {
       "hash": "9088b1b30f1ca221d0d78bcbed17bc75806eb6d734ce46ac0d4e2e4dd005fad3",
@@ -61,7 +61,23 @@
       "content": "/root/.cache/hyperframes/history/75503059-554f-4856-a1c1-485c10bb3cf6/blobs/b0/b08ab8d42a2eb08fa36ddc6ba337147b2bbfd22c41e0e6bf8802ed35de71f1c8"
     }
   },
-  "revisions": {},
+  "revisions": {
+    "3a47aac2-9db9-455e-93dd-daab0cc13216": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794829598693,
+      "endedAt": 1794829598694,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/75503059-554f-4856-a1c1-485c10bb3cf6/blobs/88/88a59eaf547f1a468e68a6098aa1df4aceb3036cab9a9a954703c482cfce25ad",
+          "after": "/root/.cache/hyperframes/history/75503059-554f-4856-a1c1-485c10bb3cf6/blobs/6f/6fc16dfa0a99392088444faa60ba52d9f62855504564bcf0f56a0783de5c34e2"
+        }
+      }
+    }
+  },
   "checks": {
     "latest": {
       "revision": null,
@@ -173,15 +189,15 @@
   },
   "renders": {
     "latest": {
-      "id": "184a707b-27f1-4b34-88b3-0d91f419ad4d",
-      "completedAt": 1792504054081,
-      "output": "/home/user/MOTION-/videos/galzin-pizza/renders/galzin-pizza-brun.mp4",
+      "id": "2f7d7e4d-d328-4f32-932d-964b7637d713",
+      "completedAt": 1794829642576,
+      "output": "/home/user/MOTION-COP/videos/galzin-pizza/renders/galzin-pizza-brun.mp4",
       "status": "completed",
-      "revision": "216c8378-ab53-4f08-bb6d-51a3a8e57787"
+      "revision": "3a47aac2-9db9-455e-93dd-daab0cc13216"
     },
     "retainedRevisions": [
-      "216c8378-ab53-4f08-bb6d-51a3a8e57787",
-      "484efe43-1a63-44aa-ab61-89b520f63ca2"
+      "3a47aac2-9db9-455e-93dd-daab0cc13216",
+      "216c8378-ab53-4f08-bb6d-51a3a8e57787"
     ]
   },
   "pendingArtifactCleanup": []

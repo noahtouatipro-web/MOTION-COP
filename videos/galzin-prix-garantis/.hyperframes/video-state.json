@@ -303,15 +303,15 @@
   },
   "renders": {
     "latest": {
-      "id": "40c0aa8e-a2ef-487d-8dab-457b318b8c2a",
-      "completedAt": 1792677607941,
-      "output": "/home/user/MOTION-/videos/galzin-prix-garantis/renders/galzin-prix-garantis.mp4",
+      "id": "8ee3f509-4e2e-4db6-8164-761cf63229e9",
+      "completedAt": 1794829849191,
+      "output": "/home/user/MOTION-COP/videos/galzin-prix-garantis/renders/galzin-prix-garantis.mp4",
       "status": "completed",
-      "revision": "172afa8b-fc0e-45ab-a881-6a7ccd31e80b"
+      "revision": "b1a8ea4a-fafc-43f5-97e8-43f5b4b23227"
     },
     "retainedRevisions": [
-      "172afa8b-fc0e-45ab-a881-6a7ccd31e80b",
-      "fc10085f-46b4-4ec3-b5da-244745342367"
+      "b1a8ea4a-fafc-43f5-97e8-43f5b4b23227",
+      "172afa8b-fc0e-45ab-a881-6a7ccd31e80b"
     ]
   },
   "pendingArtifactCleanup": []

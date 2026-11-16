@@ -171,11 +171,11 @@
   },
   "renders": {
     "latest": {
-      "id": "ca8a09d7-53de-441e-8224-714d29000bcc",
-      "completedAt": 1792576073680,
-      "output": "/home/user/MOTION-/videos/galzin-3plus1/renders/galzin-3plus1.mp4",
+      "id": "25188675-5afd-439e-a48e-32f0f4333d54",
+      "completedAt": 1794829950533,
+      "output": "/home/user/MOTION-COP/videos/galzin-3plus1/renders/galzin-3plus1.mp4",
       "status": "completed",
-      "revision": "c23c0a80-1873-4d35-bc74-568bc9711cb8"
+      "revision": null
     },
     "retainedRevisions": [
       "c23c0a80-1873-4d35-bc74-568bc9711cb8"

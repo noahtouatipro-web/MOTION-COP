@@ -167,11 +167,11 @@
   },
   "renders": {
     "latest": {
-      "id": "6e3b732f-08fd-4ce2-b374-e41ce29407e8",
-      "completedAt": 1792507082505,
-      "output": "/home/user/MOTION-/videos/galzin-menu-affiche/renders/galzin-menu-affiche.mp4",
+      "id": "6f46b4b8-bd84-41fb-8a9c-9fd65ca1fde3",
+      "completedAt": 1794829511260,
+      "output": "/home/user/MOTION-COP/videos/galzin-menu-affiche/renders/galzin-menu-affiche.mp4",
       "status": "completed",
-      "revision": "c1d6d4fa-3c71-43be-981e-fdc179c286b7"
+      "revision": null
     },
     "retainedRevisions": [
       "c1d6d4fa-3c71-43be-981e-fdc179c286b7"

@@ -162,11 +162,11 @@
   },
   "renders": {
     "latest": {
-      "id": "cdd71072-df53-4940-a4bd-a5355623b56f",
-      "completedAt": 1792570315494,
-      "output": "/home/user/MOTION-/videos/galzin-plus-sandwich/renders/galzin-offre-plus-sandwich.mp4",
+      "id": "b55badab-fb77-4a73-a72f-fab559bc61ef",
+      "completedAt": 1794829810037,
+      "output": "/home/user/MOTION-COP/videos/galzin-plus-sandwich/renders/galzin-offre-plus-sandwich.mp4",
       "status": "completed",
-      "revision": "ad62fedb-d676-42f1-bf3a-b557aaececee"
+      "revision": null
     },
     "retainedRevisions": [
       "ad62fedb-d676-42f1-bf3a-b557aaececee",

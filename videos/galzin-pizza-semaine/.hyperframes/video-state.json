@@ -161,11 +161,11 @@
   },
   "renders": {
     "latest": {
-      "id": "35f01984-f574-4260-b166-ac360ce2c7da",
-      "completedAt": 1792657416021,
-      "output": "/home/user/MOTION-/videos/galzin-pizza-semaine/renders/galzin-pizza-semaine.mp4",
+      "id": "699fec9d-5738-4f53-b5e4-04d0bd147705",
+      "completedAt": 1794829686862,
+      "output": "/home/user/MOTION-COP/videos/galzin-pizza-semaine/renders/galzin-pizza-semaine.mp4",
       "status": "completed",
-      "revision": "09dff9ba-6111-4258-b116-77ccc9809b20"
+      "revision": null
     },
     "retainedRevisions": [
       "09dff9ba-6111-4258-b116-77ccc9809b20",

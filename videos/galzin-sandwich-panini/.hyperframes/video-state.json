@@ -234,15 +234,15 @@
   },
   "renders": {
     "latest": {
-      "id": "f884fe9a-a108-487a-b208-3e33906e3ba0",
-      "completedAt": 1792591855444,
-      "output": "/home/user/MOTION-/videos/galzin-sandwich-panini/renders/galzin-sandwich-panini.mp4",
+      "id": "1f44a39b-dc43-4d82-bdd2-24c95e064776",
+      "completedAt": 1794829401833,
+      "output": "/home/user/MOTION-COP/videos/galzin-sandwich-panini/renders/galzin-sandwich-panini.mp4",
       "status": "completed",
-      "revision": "0960c497-e077-43b1-b43f-52f280cb6365"
+      "revision": "aff08d6a-4f40-412c-9b88-e4df30ce51a0"
     },
     "retainedRevisions": [
-      "0960c497-e077-43b1-b43f-52f280cb6365",
-      "28e940e7-5b51-4d00-9e06-d58a6cd3e75a"
+      "aff08d6a-4f40-412c-9b88-e4df30ce51a0",
+      "0960c497-e077-43b1-b43f-52f280cb6365"
     ]
   },
   "pendingArtifactCleanup": []

@@ -174,11 +174,11 @@
   },
   "renders": {
     "latest": {
-      "id": "f95ad2af-ab91-4336-9831-0ac64eeaebea",
-      "completedAt": 1793014590002,
-      "output": "/home/user/MOTION-/videos/galzin-petit-dej/renders/galzin-petit-dej.mp4",
+      "id": "c2867aa7-2b7d-45bc-ba9b-82e8f13c0835",
+      "completedAt": 1794829913669,
+      "output": "/home/user/MOTION-COP/videos/galzin-petit-dej/renders/galzin-petit-dej.mp4",
       "status": "completed",
-      "revision": "b2a71642-0c00-4a55-a951-0877e661a45e"
+      "revision": null
     },
     "retainedRevisions": [
       "b2a71642-0c00-4a55-a951-0877e661a45e",

@@ -177,7 +177,10 @@
     ]
   },
   "snapshots": {
-    "latest": null,
+    "latest": {
+      "revision": "21e31703-f9c5-4d81-a5b0-ebd2b9bda803",
+      "id": "d866c8d0-bede-4b73-a108-cec5f015320e-0"
+    },
     "revisions": {
       "21e31703-f9c5-4d81-a5b0-ebd2b9bda803": [
         {
@@ -587,11 +590,11 @@
   },
   "renders": {
     "latest": {
-      "id": "f80f1f4b-327c-4f0b-84a0-27d581847cd9",
-      "completedAt": 1792677490852,
-      "output": "/home/user/MOTION-/videos/galzin-affiches/renders/galzin-affiches.mp4",
+      "id": "6985e2a0-6976-44ff-bb3d-53da35039aaa",
+      "completedAt": 1794830622905,
+      "output": "/home/user/MOTION-COP/videos/galzin-affiches/renders/galzin-affiches.mp4",
       "status": "completed",
-      "revision": "0fc44443-d7a8-4e79-8baf-01fc3a256c1d"
+      "revision": null
     },
     "retainedRevisions": [
       "0fc44443-d7a8-4e79-8baf-01fc3a256c1d",

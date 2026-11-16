@@ -181,11 +181,11 @@
   },
   "renders": {
     "latest": {
-      "id": "5a901b6f-f6d9-41ec-913d-fdbadf5613aa",
-      "completedAt": 1792593220489,
-      "output": "/home/user/MOTION-/videos/galzin-salade-wrap/renders/galzin-salade-wrap.mp4",
+      "id": "b75695f3-d75b-4762-8ffb-bb4941e3406a",
+      "completedAt": 1794829438133,
+      "output": "/home/user/MOTION-COP/videos/galzin-salade-wrap/renders/galzin-salade-wrap.mp4",
       "status": "completed",
-      "revision": "6b269b31-b691-4d70-857a-8b47476db08b"
+      "revision": null
     },
     "retainedRevisions": [
       "6b269b31-b691-4d70-857a-8b47476db08b"

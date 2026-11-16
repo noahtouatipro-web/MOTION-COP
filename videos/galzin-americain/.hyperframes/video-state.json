@@ -164,11 +164,11 @@
   },
   "renders": {
     "latest": {
-      "id": "65cbdf2d-399c-441b-a3bf-6b24a7b5885a",
-      "completedAt": 1792572962892,
-      "output": "/home/user/MOTION-/videos/galzin-americain/renders/galzin-americain.mp4",
+      "id": "9b936c2d-245c-4aa4-92cc-c70e754a130f",
+      "completedAt": 1794829364717,
+      "output": "/home/user/MOTION-COP/videos/galzin-americain/renders/galzin-americain.mp4",
       "status": "completed",
-      "revision": "47078654-98cc-4d39-be07-322b96c4d043"
+      "revision": null
     },
     "retainedRevisions": [
       "47078654-98cc-4d39-be07-322b96c4d043",

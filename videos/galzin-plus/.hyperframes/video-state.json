@@ -157,11 +157,11 @@
   },
   "renders": {
     "latest": {
-      "id": "ea9b1946-32db-473b-8d00-0b6c5ba60bd7",
-      "completedAt": 1792507496162,
-      "output": "/home/user/MOTION-/videos/galzin-plus/renders/galzin-offre-plus.mp4",
+      "id": "d639b328-3911-4378-85fe-aeab224a13e5",
+      "completedAt": 1794829748984,
+      "output": "/home/user/MOTION-COP/videos/galzin-plus/renders/galzin-offre-plus.mp4",
       "status": "completed",
-      "revision": "a0c0927f-1161-4aae-812d-1d8ab61c31f2"
+      "revision": null
     },
     "retainedRevisions": [
       "a0c0927f-1161-4aae-812d-1d8ab61c31f2"
