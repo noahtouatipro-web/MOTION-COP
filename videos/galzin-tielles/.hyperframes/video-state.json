@@ -180,11 +180,11 @@
   },
   "renders": {
     "latest": {
-      "id": "38e09725-bb28-43da-9096-4998bd0cdc94",
-      "completedAt": 1792585573839,
-      "output": "/home/user/MOTION-/videos/galzin-tielles/renders/galzin-tielles.mp4",
+      "id": "bdff7fd5-570f-4168-86e0-7b2e226bd670",
+      "completedAt": 1794829322717,
+      "output": "/home/user/MOTION-COP/videos/galzin-tielles/renders/galzin-tielles.mp4",
       "status": "completed",
-      "revision": "a90244f0-aa55-4d28-8cef-f9e7edea0319"
+      "revision": null
     },
     "retainedRevisions": [
       "a90244f0-aa55-4d28-8cef-f9e7edea0319"
