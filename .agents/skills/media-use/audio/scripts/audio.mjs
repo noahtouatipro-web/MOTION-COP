@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 // audio.mjs — the shared HyperFrames audio engine. ONE implementation of TTS +
-// BGM + SFX for every video workflow (product-launch, general-video, pr-to-video,
-// …). Workflows do NOT vendor a copy: they write a neutral `audio_request.json`
-// (a tiny per-workflow adapter maps their storyboard/scenes into it) and call:
+// BGM + SFX. Callers do NOT vendor a copy: they write a neutral
+// `audio_request.json` (mapping their storyboard/scenes into it) and call:
 //
 //   node <MEDIA_DIR>/scripts/audio.mjs --request ./audio_request.json --hyperframes . --out ./audio_meta.json
 //
@@ -27,7 +26,7 @@
 //   }
 //
 // ── audio_meta.json (output, id-keyed) ───────────────────────────────────────
-//   { tts_provider, voice_id,
+//   { tts_provider, voice_id, voice_credit,
 //     bgm: { path, volume, mode, query?, duration_s? } | null,
 //     bgm_pending, bgm_provider, bgm_pid, bgm_log, bgm_mode, bgm_target_duration_s, …,
 //     voices: [ { id, path, duration_s, words: [{id,text,start,end}] } ],
@@ -35,7 +34,7 @@
 //     total_duration_s }
 //
 // --only tts,bgm,sfx  runs a subset and MERGES into an existing --out (so a
-// workflow can do TTS+BGM early, then SFX later once cues exist). When BGM uses
+// caller can do TTS+BGM early, then SFX later once cues exist). When BGM uses
 // the generate path it is spawned detached (bgm_pending:true) — run wait-bgm.mjs
 // before assembling.
 
@@ -53,6 +52,8 @@ import {
 } from "./lib/tts.mjs";
 import { generateBgmDetached, inferBgmPrompt, retrieveBgm } from "./lib/bgm.mjs";
 import { BUNDLED_SFX_DIR, resolveSfx } from "./lib/sfx.mjs";
+import { voiceCredit } from "./lib/voice-credit.mjs";
+import { parseWords, scaleWords, stretchToWav } from "./lib/recording.mjs";
 import { mapWithConcurrency } from "./lib/concurrency.mjs";
 import { openAudioMeta } from "./lib/audio-meta.mjs";
 import { recordInManifest, voicePaths, writtenAssets } from "./lib/media-record.mjs";
@@ -128,42 +129,63 @@ let voices = prev.voices ?? [];
 let ttsProvider = prev.tts_provider ?? null;
 let voiceId = prev.voice_id ?? null;
 if (only.has("tts") && lines.length) {
-  try {
-    ttsProvider = pickProvider(
-      providerOverride || (request.provider === "auto" ? null : request.provider),
-    );
-  } catch (e) {
-    die(e.message);
+  if (lines.some((l) => !l.audio)) {
+    try {
+      ttsProvider = pickProvider(
+        providerOverride || (request.provider === "auto" ? null : request.provider),
+      );
+    } catch (e) {
+      die(e.message);
+    }
+    voiceId = await resolveVoiceId({
+      provider: ttsProvider,
+      userVoice: voiceOverride || request.voice,
+      lang,
+    });
+  } else {
+    ttsProvider = "recording"; // every line is the person's own recording: no TTS provider to pick
+    voiceId = null;
   }
-  voiceId = await resolveVoiceId({
-    provider: ttsProvider,
-    userVoice: voiceOverride || request.voice,
-    lang,
-  });
   console.error(`· tts: ${ttsProvider} · voice ${voiceId} · ${lines.length} line(s)`);
   const paths = voicePaths(hyperframesDir, lines, anomalies);
+  // A line with `audio` is the person's own recording (path relative to the project), with optional
+  // `words`; `speed` applies to it like to a generated voice. Returns synthesizeOne's shape.
+  const useRecording = (line, abs) => {
+    const made = stretchToWav(resolve(hyperframesDir, String(line.audio)), abs, speed);
+    if (!made.ok) return made;
+    try {
+      const given = parseWords(line.words);
+      return { ok: true, words: given && scaleWords(given, speed), source: "recording" };
+    } catch (e) {
+      return { ok: false, error: e.message };
+    }
+  };
   const synthLine = async (line) => {
     const id = String(line.id);
     const text = String(line.text ?? "").trim();
-    if (!text) {
+    if (!text && !line.audio) {
       anomalies.push(`line ${id}: empty text — skipped`);
       return null;
     }
     const rel = paths.get(id);
     const abs = join(hyperframesDir, rel);
-    const { ok, words, error } = await synthesizeOne({
-      provider: ttsProvider,
-      text,
-      voiceId,
-      lang,
-      speed,
-      model: flag("tts-model", request.tts_model),
-      style: flag("style", line.style ?? request.style),
-      wavAbs: abs,
-      hyperframesDir,
-    });
+    const { ok, words, error, source } = line.audio
+      ? useRecording(line, abs)
+      : await synthesizeOne({
+          provider: ttsProvider,
+          text,
+          voiceId,
+          lang,
+          speed,
+          model: flag("tts-model", request.tts_model),
+          style: flag("style", line.style ?? request.style),
+          wavAbs: abs,
+          hyperframesDir,
+        });
     if (!ok) {
-      anomalies.push(`line ${id}: TTS failed — omitted${error ? ` (${error})` : ""}`);
+      anomalies.push(
+        `line ${id}: ${line.audio ? "recording" : "TTS"} failed — omitted${error ? ` (${error})` : ""}`,
+      );
       return null;
     }
     let wordArr = words; // heygen: native; else transcribe
@@ -173,7 +195,13 @@ if (only.has("tts") && lines.length) {
       anomalies.push(`line ${id}: bad voice duration — omitted`);
       return null;
     }
-    return { id, path: rel, duration_s: r3(dur), words: withWordIds(wordArr) };
+    return {
+      id,
+      path: rel,
+      duration_s: r3(dur),
+      words: withWordIds(wordArr),
+      ...(source && { source }),
+    };
   };
   const results = await mapWithConcurrency(lines, ttsConcurrency, synthLine);
   voices = results.filter(Boolean);
@@ -200,8 +228,8 @@ if (only.has("bgm")) {
   Object.keys(bgmFields).forEach((k) => (bgmFields[k] = k === "bgm_pending" ? false : null));
   // Mode resolution. An EXPLICIT mode (flag or request.bgm.mode) is strict:
   // "retrieve" means retrieve-or-nothing — it never silently starts a detached
-  // generate (a caller with no wait-bgm step, e.g. product-launch, must not get
-  // a pending job it can't await). Only the UNSET/auto default picks generate
+  // generate (a caller with no wait-bgm step must not get a pending job it
+  // can't await). Only the UNSET/auto default picks generate
   // when HeyGen is absent.
   const explicitMode = bgmModeOverride || request.bgm?.mode || null;
   let mode = noBgm ? "none" : explicitMode || (heygenOK ? "retrieve" : "generate");
@@ -288,6 +316,7 @@ if (only.has("sfx")) {
 const meta = {
   tts_provider: ttsProvider,
   voice_id: voiceId,
+  voice_credit: voiceCredit(voices, ttsProvider),
   bgm,
   ...bgmFields,
   voices,
