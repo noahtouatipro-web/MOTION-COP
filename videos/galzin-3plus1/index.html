@@ -336,16 +336,16 @@
         <img src="assets/img/croissant.png" alt="Croissant" />
         <div class="end-name">Croissant</div>
         <div class="medal">
-          <div class="price"><span class="big">0</span><span class="sm">€90</span></div>
-          <div class="piece">PIÈCE PAR 4</div>
+          <div class="price"><span class="big">3</span><span class="sm">€65</span></div>
+          <div class="piece">LES 4</div>
         </div>
       </div>
       <div class="end-card" id="end-p">
         <img src="assets/img/chocolatine.png" alt="Chocolatine" />
         <div class="end-name">Chocolatine</div>
         <div class="medal">
-          <div class="price"><span class="big">1</span><span class="sm">€05</span></div>
-          <div class="piece">PIÈCE PAR 4</div>
+          <div class="price"><span class="big">4</span><span class="sm">€25</span></div>
+          <div class="piece">LES 4</div>
         </div>
       </div>
 
@@ -360,8 +360,8 @@
     <script>
       // ── One scene per product, same choreography, different data
       const PRODUCTS = [
-        { id: "c", name: "Croissant", img: "croissant.png", offert: "OFFERT", alone: "Le croissant vendu seul", was: "1,20€", big: "0", sm: "€90", total: "3,60€" },
-        { id: "p", name: "Chocolatine", img: "chocolatine.png", offert: "OFFERTE", alone: "La chocolatine vendue seule", was: "1,40€", big: "1", sm: "€05", total: "4,20€" },
+        { id: "c", name: "Croissant", img: "croissant.png", offert: "OFFERT", alone: "Le croissant vendu seul", was: "1,25€", big: "3", sm: "€65", total: "5,00€" },
+        { id: "p", name: "Chocolatine", img: "chocolatine.png", offert: "OFFERTE", alone: "La chocolatine vendue seule", was: "1,45€", big: "4", sm: "€25", total: "5,80€" },
       ];
       const scenesEl = document.getElementById("scenes");
       PRODUCTS.forEach((p) => {
@@ -384,8 +384,8 @@
           '<div class="title"><div class="script" id="' + p.id + '-script">' + p.name + '</div><div class="pb" id="' + p.id + '-pb">PUR BEURRE</div></div>' +
           slots +
           '<div class="bottom-l"><div class="par4" id="' + p.id + '-par4">PAR 4</div><div class="alone" id="' + p.id + '-alone">' + p.alone + " <s>" + p.was + "</s></div></div>" +
-          '<div class="medal" id="' + p.id + '-medal"><div class="price"><span class="big">' + p.big + '</span><span class="sm">' + p.sm + '</span></div><div class="piece">PIÈCE</div></div>' +
-          '<div class="les4" id="' + p.id + '-les4">soit <b>' + p.total + "</b><br />les 4</div>";
+          '<div class="medal" id="' + p.id + '-medal"><div class="price"><span class="big">' + p.big + '</span><span class="sm">' + p.sm + '</span></div><div class="piece">LES 4</div></div>' +
+          '<div class="les4" id="' + p.id + '-les4">au lieu de<br /><b>' + p.total + "</b></div>";
         scenesEl.appendChild(sc);
       });
 

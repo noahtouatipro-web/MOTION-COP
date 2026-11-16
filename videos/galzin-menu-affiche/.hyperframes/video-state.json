@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "c3f869da-f381-445d-b6d1-87e490d8b4c0",
-  "currentRevision": "c1d6d4fa-3c71-43be-981e-fdc179c286b7",
+  "currentRevision": null,
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -65,8 +65,8 @@
       "content": "/root/.cache/hyperframes/history/c3f869da-f381-445d-b6d1-87e490d8b4c0/blobs/e5/e5da816b77f863aa4798d974bc68d65805329ca4d39ebcf353967c5b47e677a6"
     },
     "index.html": {
-      "hash": "2ff00e8943e4aa5f12f99d2ee1b8610f142448ee990fe03dc54cd29b33520626",
-      "content": "/root/.cache/hyperframes/history/c3f869da-f381-445d-b6d1-87e490d8b4c0/blobs/2f/2ff00e8943e4aa5f12f99d2ee1b8610f142448ee990fe03dc54cd29b33520626"
+      "hash": "84d70e4fbc350a787bfb786a6b4c616f758e697fe68d4f7db3f94ba6706e9b12",
+      "content": "/root/.cache/hyperframes/history/c3f869da-f381-445d-b6d1-87e490d8b4c0/blobs/84/84d70e4fbc350a787bfb786a6b4c616f758e697fe68d4f7db3f94ba6706e9b12"
     },
     "meta.json": {
       "hash": "430ed678eb34740dc2089f03a63be2ab7085f39d1a4b2c6b7d7009cb0d2e72cb",
@@ -77,28 +77,9 @@
       "content": "/root/.cache/hyperframes/history/c3f869da-f381-445d-b6d1-87e490d8b4c0/blobs/ca/caddac87054e17c08e08f852e5957dbfe7b9012384cdc8413beb69d8e2f23bb1"
     }
   },
-  "revisions": {
-    "c1d6d4fa-3c71-43be-981e-fdc179c286b7": {
-      "actor": {
-        "kind": "outside",
-        "name": "Outside"
-      },
-      "label": "Changed outside the app",
-      "startedAt": 1792507047808,
-      "endedAt": 1792507047808,
-      "files": {
-        "index.html": {
-          "before": "/root/.cache/hyperframes/history/c3f869da-f381-445d-b6d1-87e490d8b4c0/blobs/dc/dc95566b343235d78657b7ce338be70ab9f26971f2702afa770ba4092c7585a9",
-          "after": "/root/.cache/hyperframes/history/c3f869da-f381-445d-b6d1-87e490d8b4c0/blobs/2f/2ff00e8943e4aa5f12f99d2ee1b8610f142448ee990fe03dc54cd29b33520626"
-        }
-      }
-    }
-  },
+  "revisions": {},
   "checks": {
-    "latest": {
-      "revision": "c1d6d4fa-3c71-43be-981e-fdc179c286b7",
-      "id": "9f2cbf0b-61af-4e24-b7ee-9a5c38326f37"
-    },
+    "latest": null,
     "revisions": {
       "c1d6d4fa-3c71-43be-981e-fdc179c286b7": [
         {
@@ -163,15 +144,15 @@
   "snapshots": {
     "latest": {
       "revision": null,
-      "id": "4e833e48-cfb6-42b5-87ac-434c49c161d3-5"
+      "id": "877d7b7b-56a8-4920-b6cb-a33dff8cf968-7"
     },
     "revisions": {},
     "unversioned": [
       {
         "scope": "full",
-        "id": "4e833e48-cfb6-42b5-87ac-434c49c161d3-0",
-        "image": "/home/user/MOTION-/videos/galzin-menu-affiche/.hyperframes/artifacts/snapshots/6d1fb000-55c7-49a6-84b7-1be44b8c41ae/frame-00-at-2.2s.png",
-        "time": 2.2,
+        "id": "877d7b7b-56a8-4920-b6cb-a33dff8cf968-0",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-menu-affiche/frame-00-at-0s.png",
+        "time": 0,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -180,18 +161,18 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792507034550,
-        "contentHash": "206463d4f38050cc95b90b84ed2d2c660bdfe39b9cda935b6f17f4c9ddf83772",
+        "createdAt": 1794826952065,
+        "contentHash": "0fb454b1a67270443d1111a75165784695038ffa8fd6808809bca7c44a064bd1",
         "revision": null,
-        "inputFingerprint": "cc2e0810fd084c1b802c6b6cc1ef3c0bbb00bd8927b74aa9bff84f9c05880c38",
+        "inputFingerprint": "4d74f59e164171b228be121b4b5fbf39af4814cf7bc08eeda78e12639827ee62",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "4e833e48-cfb6-42b5-87ac-434c49c161d3-1",
-        "image": "/home/user/MOTION-/videos/galzin-menu-affiche/.hyperframes/artifacts/snapshots/6d1fb000-55c7-49a6-84b7-1be44b8c41ae/frame-01-at-4.3s.png",
-        "time": 4.3,
+        "id": "877d7b7b-56a8-4920-b6cb-a33dff8cf968-1",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-menu-affiche/frame-01-at-2.143s.png",
+        "time": 2.143,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -200,18 +181,18 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792507034550,
-        "contentHash": "5460793b92d1421e890f47d095b29a6c957aa33cd0437753a07e2690e8067659",
+        "createdAt": 1794826952065,
+        "contentHash": "aaa1f51751a264598de79a3b4732b93c14833a1ac732e6c644eeefaf6306983d",
         "revision": null,
-        "inputFingerprint": "cc2e0810fd084c1b802c6b6cc1ef3c0bbb00bd8927b74aa9bff84f9c05880c38",
+        "inputFingerprint": "4d74f59e164171b228be121b4b5fbf39af4814cf7bc08eeda78e12639827ee62",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "4e833e48-cfb6-42b5-87ac-434c49c161d3-2",
-        "image": "/home/user/MOTION-/videos/galzin-menu-affiche/.hyperframes/artifacts/snapshots/6d1fb000-55c7-49a6-84b7-1be44b8c41ae/frame-02-at-6.8s.png",
-        "time": 6.8,
+        "id": "877d7b7b-56a8-4920-b6cb-a33dff8cf968-2",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-menu-affiche/frame-02-at-4.286s.png",
+        "time": 4.286,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -220,18 +201,18 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792507034550,
-        "contentHash": "9c49530a92ba13d990d91474ab590dfab2f4b5b6ef390a84d57e5847fdcb274c",
+        "createdAt": 1794826952065,
+        "contentHash": "ba340f91e5480b8839e5dafae23d526a05b310f9506bb5f5e7d7f580ec6638c5",
         "revision": null,
-        "inputFingerprint": "cc2e0810fd084c1b802c6b6cc1ef3c0bbb00bd8927b74aa9bff84f9c05880c38",
+        "inputFingerprint": "4d74f59e164171b228be121b4b5fbf39af4814cf7bc08eeda78e12639827ee62",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "4e833e48-cfb6-42b5-87ac-434c49c161d3-3",
-        "image": "/home/user/MOTION-/videos/galzin-menu-affiche/.hyperframes/artifacts/snapshots/6d1fb000-55c7-49a6-84b7-1be44b8c41ae/frame-03-at-9.4s.png",
-        "time": 9.4,
+        "id": "877d7b7b-56a8-4920-b6cb-a33dff8cf968-3",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-menu-affiche/frame-03-at-6.429s.png",
+        "time": 6.429,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -240,18 +221,18 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792507034550,
-        "contentHash": "5ab9952fb238dcb3171c0ae59dcf5a8d00189251165751a1c3963840b8e591ba",
+        "createdAt": 1794826952065,
+        "contentHash": "137bd67316891aec8c79bdc58352c46117da983008fea7b149ef8e15f86a03c9",
         "revision": null,
-        "inputFingerprint": "cc2e0810fd084c1b802c6b6cc1ef3c0bbb00bd8927b74aa9bff84f9c05880c38",
+        "inputFingerprint": "4d74f59e164171b228be121b4b5fbf39af4814cf7bc08eeda78e12639827ee62",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "4e833e48-cfb6-42b5-87ac-434c49c161d3-4",
-        "image": "/home/user/MOTION-/videos/galzin-menu-affiche/.hyperframes/artifacts/snapshots/6d1fb000-55c7-49a6-84b7-1be44b8c41ae/frame-04-at-14.5s.png",
-        "time": 14.5,
+        "id": "877d7b7b-56a8-4920-b6cb-a33dff8cf968-4",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-menu-affiche/frame-04-at-8.571s.png",
+        "time": 8.571,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -260,17 +241,57 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792507034550,
-        "contentHash": "a52c21c608a67ec639f67a8cf652c6e710afe891dc5018c7dd19a552ba920ca2",
+        "createdAt": 1794826952065,
+        "contentHash": "05128cef63a7c08e52594c46a1ce15c9663c73be84db128ae314101f23b5560e",
         "revision": null,
-        "inputFingerprint": "cc2e0810fd084c1b802c6b6cc1ef3c0bbb00bd8927b74aa9bff84f9c05880c38",
+        "inputFingerprint": "4d74f59e164171b228be121b4b5fbf39af4814cf7bc08eeda78e12639827ee62",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "4e833e48-cfb6-42b5-87ac-434c49c161d3-5",
-        "image": "/home/user/MOTION-/videos/galzin-menu-affiche/.hyperframes/artifacts/snapshots/6d1fb000-55c7-49a6-84b7-1be44b8c41ae/frame-05-at-14.55s.png",
+        "id": "877d7b7b-56a8-4920-b6cb-a33dff8cf968-5",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-menu-affiche/frame-05-at-10.714s.png",
+        "time": 10.714,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794826952065,
+        "contentHash": "96694b9dd0ece35f644c15c163ce1fa489438f23946cae2070f138cbd07b0ad6",
+        "revision": null,
+        "inputFingerprint": "4d74f59e164171b228be121b4b5fbf39af4814cf7bc08eeda78e12639827ee62",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "877d7b7b-56a8-4920-b6cb-a33dff8cf968-6",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-menu-affiche/frame-06-at-12.857s.png",
+        "time": 12.857,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794826952065,
+        "contentHash": "61ab7033e9bb233d7418d3ac23f07daca4a41579d2a3ccff0eaed6a5724acb4a",
+        "revision": null,
+        "inputFingerprint": "4d74f59e164171b228be121b4b5fbf39af4814cf7bc08eeda78e12639827ee62",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "877d7b7b-56a8-4920-b6cb-a33dff8cf968-7",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-menu-affiche/frame-07-at-14.55s.png",
         "time": 14.55,
         "metadata": {
           "width": 1920,
@@ -280,10 +301,10 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792507034550,
-        "contentHash": "a52c21c608a67ec639f67a8cf652c6e710afe891dc5018c7dd19a552ba920ca2",
+        "createdAt": 1794826952065,
+        "contentHash": "61ab7033e9bb233d7418d3ac23f07daca4a41579d2a3ccff0eaed6a5724acb4a",
         "revision": null,
-        "inputFingerprint": "cc2e0810fd084c1b802c6b6cc1ef3c0bbb00bd8927b74aa9bff84f9c05880c38",
+        "inputFingerprint": "4d74f59e164171b228be121b4b5fbf39af4814cf7bc08eeda78e12639827ee62",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       }

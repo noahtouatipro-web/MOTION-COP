@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "0a2e0bdd-f371-4533-98fc-a133617ce9a1",
-  "currentRevision": "5ed5e712-8751-469a-a0ba-298502e03294",
+  "currentRevision": null,
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -65,8 +65,8 @@
       "content": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/e5/e5da816b77f863aa4798d974bc68d65805329ca4d39ebcf353967c5b47e677a6"
     },
     "index.html": {
-      "hash": "d5a2887eb23c5ff97e7ff3a6cb33eae598e39eac8bbcfe4c8bade0894b0ebb58",
-      "content": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/d5/d5a2887eb23c5ff97e7ff3a6cb33eae598e39eac8bbcfe4c8bade0894b0ebb58"
+      "hash": "4d176bebd9c29bbc8dae8657381a3f0bede44c8afba98881b800abfcec358d41",
+      "content": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/4d/4d176bebd9c29bbc8dae8657381a3f0bede44c8afba98881b800abfcec358d41"
     },
     "meta.json": {
       "hash": "4dc18318f7cbfd43b517b8ffde18bd9f72adedf1d195998259b4847c7213ad33",
@@ -85,71 +85,9 @@
       "content": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/52/5273001fd280a9267e24269a5050b24053a5e2b0fbd7387040fecfd5036f7dc9"
     }
   },
-  "revisions": {
-    "e1581b8d-5ff1-4fca-9eaf-3d2d9c88d15f": {
-      "actor": {
-        "kind": "outside",
-        "name": "Outside"
-      },
-      "label": "Changed outside the app",
-      "startedAt": 1792656926960,
-      "endedAt": 1792656926961,
-      "files": {
-        "index.html": {
-          "before": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/55/552491019cdd1adfe7c843d7b4cb7f8c6214f5eee825ac83ff975b120f85be81",
-          "after": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/d5/d5a2887eb23c5ff97e7ff3a6cb33eae598e39eac8bbcfe4c8bade0894b0ebb58"
-        }
-      }
-    },
-    "5ed5e712-8751-469a-a0ba-298502e03294": {
-      "actor": {
-        "kind": "outside",
-        "name": "Outside"
-      },
-      "label": "Changed outside the app",
-      "startedAt": 1792657312878,
-      "endedAt": 1792657312914,
-      "files": {
-        "assets/img/4-fromages.png": {
-          "before": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/31/31eb782717a2dfc70afd115cace755f02ac12973156d243803826ba8ba4b5c1b",
-          "after": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/3d/3d58b4465e3d6de8495659ade8ce3aeca3df475b7662baeb29e5cb15964b925d"
-        },
-        "assets/img/alsacienne.png": {
-          "before": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/ae/aed43da757d596e60230b5ab672dd1df1eb6741860002556bb48c4536ce62518",
-          "after": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/22/224e597cfa7420966e491516aef0739e25b23804a4d9b2a92a649d0edd37ea05"
-        },
-        "assets/img/bolognaise.png": {
-          "before": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/c8/c8bc93f2a9b0a408abc8ffc56e6375c7b8c00372722ec1ac029c3fe1590aceab",
-          "after": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/b5/b5da6687ae36feefc8d5239aaecd8a1124a0f5fbd6d2221ddbb90fdcfcf56bd2"
-        },
-        "assets/img/chevre-miel.png": {
-          "before": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/3c/3c547b3707390d2cb47d7da53952fc4d066373bb3c0550c922e24587ddf9c8e6",
-          "after": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/d9/d990c1eb2f56ff498aa9556b1a653e3a87bd1e3da8a7cd092a47f1cdec050b5e"
-        },
-        "assets/img/indienne.png": {
-          "before": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/0e/0e299a285dfccf1c3536325a23fff8c220044ec358818691f77bcbd26b05c577",
-          "after": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/61/617ef6312bbc5ed812fde73ac6c9afb905ce47f87ef2b6c11f2f37de9bd5ea0a"
-        },
-        "assets/img/kebab.png": {
-          "before": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/5b/5beb53767f8c646d326105e033df0eee6668ec25cffbf2e744a3ae589c57d78f",
-          "after": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/a7/a782062bbe5d5523daed15e7cb3f4462302eab5c885b83f6d8a2b4771631872f"
-        },
-        "assets/img/margherita.png": {
-          "before": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/ac/ac74b7e73b039d5723f9eaaf8ad8883690909aecba35b9aa2bb142926a663ad6",
-          "after": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/bf/bfee6e141fb10ab307a71e1b2bb09203f7755854f6c7f2d29313d97278e3a247"
-        },
-        "assets/img/vegetarienne.png": {
-          "before": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/a9/a948351685af9f11c1d98bb99739a469ac6f30f901c2575523b0353164130ada",
-          "after": "/root/.cache/hyperframes/history/0a2e0bdd-f371-4533-98fc-a133617ce9a1/blobs/52/5273001fd280a9267e24269a5050b24053a5e2b0fbd7387040fecfd5036f7dc9"
-        }
-      }
-    }
-  },
+  "revisions": {},
   "checks": {
-    "latest": {
-      "revision": "e1581b8d-5ff1-4fca-9eaf-3d2d9c88d15f",
-      "id": "70863f35-1c02-439d-a3ef-701ca965cc54"
-    },
+    "latest": null,
     "revisions": {
       "e1581b8d-5ff1-4fca-9eaf-3d2d9c88d15f": [
         {
@@ -213,59 +151,18 @@
   },
   "snapshots": {
     "latest": {
-      "revision": "e1581b8d-5ff1-4fca-9eaf-3d2d9c88d15f",
-      "id": "743faf09-bb3b-4520-b56a-541d9ff31d3c-1"
+      "revision": null,
+      "id": "84e3c5a7-4a32-4e04-9eba-d0f9ba201566-5"
     },
     "revisions": {
-      "e1581b8d-5ff1-4fca-9eaf-3d2d9c88d15f": [
-        {
-          "scope": "full",
-          "id": "743faf09-bb3b-4520-b56a-541d9ff31d3c-0",
-          "image": "/home/user/MOTION-/videos/galzin-carte-pizzas/.hyperframes/artifacts/snapshots/fce229c9-ebf6-45d6-ba10-a8376454bb5c/frame-00-at-22s.png",
-          "time": 22,
-          "metadata": {
-            "width": 1920,
-            "height": 1080,
-            "zoomScale": 1,
-            "browserGpuMode": "auto",
-            "warnings": [],
-            "partial": false
-          },
-          "createdAt": 1792656934678,
-          "contentHash": "1cc5ad1c030a47d9be23663dee2568b0fa85e9459d2d392d829c012b60a1a84c",
-          "revision": "e1581b8d-5ff1-4fca-9eaf-3d2d9c88d15f",
-          "inputFingerprint": "b938391b50cec08cc5f95a97e8cf3ebb9562d87acfd1ccaa1821934b419a9563",
-          "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
-        },
-        {
-          "scope": "full",
-          "id": "743faf09-bb3b-4520-b56a-541d9ff31d3c-1",
-          "image": "/home/user/MOTION-/videos/galzin-carte-pizzas/.hyperframes/artifacts/snapshots/fce229c9-ebf6-45d6-ba10-a8376454bb5c/frame-01-at-29.1s.png",
-          "time": 29.1,
-          "metadata": {
-            "width": 1920,
-            "height": 1080,
-            "zoomScale": 1,
-            "browserGpuMode": "auto",
-            "warnings": [],
-            "partial": false
-          },
-          "createdAt": 1792656934678,
-          "contentHash": "6efd1e01f5a073323f049c426d96e8e0b33d17cf82ba89636320159b70b9e970",
-          "revision": "e1581b8d-5ff1-4fca-9eaf-3d2d9c88d15f",
-          "inputFingerprint": "b938391b50cec08cc5f95a97e8cf3ebb9562d87acfd1ccaa1821934b419a9563",
-          "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
-        }
-      ]
+      "e1581b8d-5ff1-4fca-9eaf-3d2d9c88d15f": []
     },
     "unversioned": [
       {
         "scope": "full",
-        "id": "8c51cebf-65af-4d77-aa5a-31884a28a9b5-0",
-        "image": "/home/user/MOTION-/videos/galzin-carte-pizzas/.hyperframes/artifacts/snapshots/309264cb-078b-463d-af29-66c26c1f5009/frame-00-at-2s.png",
-        "time": 2,
+        "id": "80960979-3c17-4f81-b571-2f5f2ce06e75-0",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-carte-pizzas/frame-00-at-0s.png",
+        "time": 0,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -274,18 +171,18 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792656911622,
-        "contentHash": "ec8b1a57465dbbc347becf838ba01c69add5f3429598dfc5abcccde3db539252",
+        "createdAt": 1794826937207,
+        "contentHash": "2d8016ebee8c63e038689677e3d91330995d4beead61da6ca2457231b31b5313",
         "revision": null,
-        "inputFingerprint": "0695a65a35c0682dfa7a27efa315e1d15237cf1f6462adf402cc2b0e6cdf5db0",
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "8c51cebf-65af-4d77-aa5a-31884a28a9b5-1",
-        "image": "/home/user/MOTION-/videos/galzin-carte-pizzas/.hyperframes/artifacts/snapshots/309264cb-078b-463d-af29-66c26c1f5009/frame-01-at-3.4s.png",
-        "time": 3.4,
+        "id": "80960979-3c17-4f81-b571-2f5f2ce06e75-1",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-carte-pizzas/frame-01-at-4.286s.png",
+        "time": 4.286,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -294,18 +191,18 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792656911622,
-        "contentHash": "2c09f26f404896fb6157985902ca0b1def51bcc46aae20f7d86b154da5cdcb2e",
+        "createdAt": 1794826937207,
+        "contentHash": "6062b2950c9e7320028594f0f15940f591e055b07cb0f8ae60f9c9ab22dfac77",
         "revision": null,
-        "inputFingerprint": "0695a65a35c0682dfa7a27efa315e1d15237cf1f6462adf402cc2b0e6cdf5db0",
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "8c51cebf-65af-4d77-aa5a-31884a28a9b5-2",
-        "image": "/home/user/MOTION-/videos/galzin-carte-pizzas/.hyperframes/artifacts/snapshots/309264cb-078b-463d-af29-66c26c1f5009/frame-02-at-8.5s.png",
-        "time": 8.5,
+        "id": "80960979-3c17-4f81-b571-2f5f2ce06e75-2",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-carte-pizzas/frame-02-at-8.571s.png",
+        "time": 8.571,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -314,18 +211,18 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792656911623,
-        "contentHash": "c9542fd2e658fcf08d0d631f29ca913dbce066eee1a5ad357fd7f17d3d4d4ae7",
+        "createdAt": 1794826937207,
+        "contentHash": "7e271288bab4020e089ad53fd924936f2f532959fb24865f7f9a245de4dba309",
         "revision": null,
-        "inputFingerprint": "0695a65a35c0682dfa7a27efa315e1d15237cf1f6462adf402cc2b0e6cdf5db0",
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "8c51cebf-65af-4d77-aa5a-31884a28a9b5-3",
-        "image": "/home/user/MOTION-/videos/galzin-carte-pizzas/.hyperframes/artifacts/snapshots/309264cb-078b-463d-af29-66c26c1f5009/frame-03-at-15.6s.png",
-        "time": 15.6,
+        "id": "80960979-3c17-4f81-b571-2f5f2ce06e75-3",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-carte-pizzas/frame-03-at-12.857s.png",
+        "time": 12.857,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -334,18 +231,18 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792656911623,
-        "contentHash": "d52505578ffd0c0ea2db3e5cb4c41c78ec0f4711f70730c23572adaab79a6115",
+        "createdAt": 1794826937207,
+        "contentHash": "f651e77a711e1642c916c7aeec61a07ab5212af011ef0e381e9cd33da3c9d4b8",
         "revision": null,
-        "inputFingerprint": "0695a65a35c0682dfa7a27efa315e1d15237cf1f6462adf402cc2b0e6cdf5db0",
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "8c51cebf-65af-4d77-aa5a-31884a28a9b5-4",
-        "image": "/home/user/MOTION-/videos/galzin-carte-pizzas/.hyperframes/artifacts/snapshots/309264cb-078b-463d-af29-66c26c1f5009/frame-04-at-19.5s.png",
-        "time": 19.5,
+        "id": "80960979-3c17-4f81-b571-2f5f2ce06e75-4",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-carte-pizzas/frame-04-at-17.143s.png",
+        "time": 17.143,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -354,18 +251,18 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792656911623,
-        "contentHash": "172af25a4dd74635572547fe32d02b34a6e0f12fe2dab5a06be6c68b4f2c3ecd",
+        "createdAt": 1794826937207,
+        "contentHash": "605cf2e3a8a405d0166389bc06f663f3d8aed3f49273adbe0a2e08e6e5925ccf",
         "revision": null,
-        "inputFingerprint": "0695a65a35c0682dfa7a27efa315e1d15237cf1f6462adf402cc2b0e6cdf5db0",
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "8c51cebf-65af-4d77-aa5a-31884a28a9b5-5",
-        "image": "/home/user/MOTION-/videos/galzin-carte-pizzas/.hyperframes/artifacts/snapshots/309264cb-078b-463d-af29-66c26c1f5009/frame-05-at-27s.png",
-        "time": 27,
+        "id": "80960979-3c17-4f81-b571-2f5f2ce06e75-5",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-carte-pizzas/frame-05-at-21.429s.png",
+        "time": 21.429,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -374,17 +271,37 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792656911623,
-        "contentHash": "073bcb81166dfcd4d02f7fc14a06256ff3c81d152e790fbc526fc58fc6b3e55b",
+        "createdAt": 1794826937207,
+        "contentHash": "e70a85634e2dcfd30754d445e0ffe43459b75809f64e40d663ae20c3f6e1aab5",
         "revision": null,
-        "inputFingerprint": "0695a65a35c0682dfa7a27efa315e1d15237cf1f6462adf402cc2b0e6cdf5db0",
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "8c51cebf-65af-4d77-aa5a-31884a28a9b5-6",
-        "image": "/home/user/MOTION-/videos/galzin-carte-pizzas/.hyperframes/artifacts/snapshots/309264cb-078b-463d-af29-66c26c1f5009/frame-06-at-29.1s.png",
+        "id": "80960979-3c17-4f81-b571-2f5f2ce06e75-6",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-carte-pizzas/frame-06-at-25.714s.png",
+        "time": 25.714,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794826937207,
+        "contentHash": "5f81ba701d5099f8360eb059c19bce0f8a4714a9e4ab77b621254fbfc81f7cfc",
+        "revision": null,
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "80960979-3c17-4f81-b571-2f5f2ce06e75-7",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/galzin-carte-pizzas/frame-07-at-29.1s.png",
         "time": 29.1,
         "metadata": {
           "width": 1920,
@@ -394,10 +311,130 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792656911623,
-        "contentHash": "04aaccf154aca4021b7866f373299fa5361899058e0859b5180994b2cd666c54",
+        "createdAt": 1794826937207,
+        "contentHash": "8b16ae2545addffe627da335b8dab4b4bb331a3dd06151b5b4851a733e3db378",
         "revision": null,
-        "inputFingerprint": "0695a65a35c0682dfa7a27efa315e1d15237cf1f6462adf402cc2b0e6cdf5db0",
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "84e3c5a7-4a32-4e04-9eba-d0f9ba201566-0",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/cp2/frame-00-at-0s.png",
+        "time": 0,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794827095286,
+        "contentHash": "2d8016ebee8c63e038689677e3d91330995d4beead61da6ca2457231b31b5313",
+        "revision": null,
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "84e3c5a7-4a32-4e04-9eba-d0f9ba201566-1",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/cp2/frame-01-at-6s.png",
+        "time": 6,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794827095287,
+        "contentHash": "1d62884cba96409cb9e2dc2200ecf6f0aa5df5c432a89178953bf9876ed9cd9c",
+        "revision": null,
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "84e3c5a7-4a32-4e04-9eba-d0f9ba201566-2",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/cp2/frame-02-at-12s.png",
+        "time": 12,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794827095287,
+        "contentHash": "4c2a8609e172ebdf63124b7636624f474c7c944113a459e2bd5a1bb6d99e10fe",
+        "revision": null,
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "84e3c5a7-4a32-4e04-9eba-d0f9ba201566-3",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/cp2/frame-03-at-18s.png",
+        "time": 18,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794827095287,
+        "contentHash": "a7dc672e8654a64fd9d7b0b949c57610045c3d8190a1ebe45f840969eef0460b",
+        "revision": null,
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "84e3c5a7-4a32-4e04-9eba-d0f9ba201566-4",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/cp2/frame-04-at-24s.png",
+        "time": 24,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794827095287,
+        "contentHash": "eff8cc23cd92928cd91759b7bcf5561e0b5104888ab0bd4f56f0cd3a39ae4a03",
+        "revision": null,
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "84e3c5a7-4a32-4e04-9eba-d0f9ba201566-5",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/304992ba-fb8c-5ae5-a372-2cc3dc2e8139/scratchpad/snaps/cp2/frame-05-at-29.1s.png",
+        "time": 29.1,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794827095287,
+        "contentHash": "8b16ae2545addffe627da335b8dab4b4bb331a3dd06151b5b4851a733e3db378",
+        "revision": null,
+        "inputFingerprint": "b94ce1e79387f7ca13c2a136bf3235a28f255c0c17d734a7addd97b373731a47",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       }
