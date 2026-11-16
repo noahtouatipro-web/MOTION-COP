@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "429f4e15-875e-411a-b7bd-711dbba652ed",
-  "currentRevision": "0960c497-e077-43b1-b43f-52f280cb6365",
+  "currentRevision": "aff08d6a-4f40-412c-9b88-e4df30ce51a0",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -49,8 +49,8 @@
       "content": "/root/.cache/hyperframes/history/429f4e15-875e-411a-b7bd-711dbba652ed/blobs/e5/e5da816b77f863aa4798d974bc68d65805329ca4d39ebcf353967c5b47e677a6"
     },
     "index.html": {
-      "hash": "1265890072eb535e77ffb269d7068e25d4da05e9e3dd7b86dac94239b86feb2d",
-      "content": "/root/.cache/hyperframes/history/429f4e15-875e-411a-b7bd-711dbba652ed/blobs/12/1265890072eb535e77ffb269d7068e25d4da05e9e3dd7b86dac94239b86feb2d"
+      "hash": "eda9ebf47fb66193f8152f9d800d0e2586572cb2715fbfae9b229f3b4af91ee4",
+      "content": "/root/.cache/hyperframes/history/429f4e15-875e-411a-b7bd-711dbba652ed/blobs/ed/eda9ebf47fb66193f8152f9d800d0e2586572cb2715fbfae9b229f3b4af91ee4"
     },
     "meta.json": {
       "hash": "d6cf206257cb0b1e8c9e1291ba87770e43ed291f48daea9d9a80c9ea60adc49d",
@@ -66,52 +66,35 @@
     }
   },
   "revisions": {
-    "28e940e7-5b51-4d00-9e06-d58a6cd3e75a": {
+    "aff08d6a-4f40-412c-9b88-e4df30ce51a0": {
       "actor": {
         "kind": "outside",
         "name": "Outside"
       },
       "label": "Changed outside the app",
-      "startedAt": 1792591597971,
-      "endedAt": 1792591597971,
+      "startedAt": 1794829132987,
+      "endedAt": 1794829132988,
       "files": {
         "index.html": {
-          "before": "/root/.cache/hyperframes/history/429f4e15-875e-411a-b7bd-711dbba652ed/blobs/0a/0ac273140841be027528faeade41ca4db7a972faec2fddd765b0597617a6c0f8",
-          "after": "/root/.cache/hyperframes/history/429f4e15-875e-411a-b7bd-711dbba652ed/blobs/d9/d9166c149c0d27c3396622b5336da1432119811132c9bbdf205f876f7811051b"
-        }
-      }
-    },
-    "0960c497-e077-43b1-b43f-52f280cb6365": {
-      "actor": {
-        "kind": "outside",
-        "name": "Outside"
-      },
-      "label": "Changed outside the app",
-      "startedAt": 1792591823802,
-      "endedAt": 1792591823810,
-      "files": {
-        "assets/img/donut.png": {
-          "before": "/root/.cache/hyperframes/history/429f4e15-875e-411a-b7bd-711dbba652ed/blobs/29/29f7e79583dee2046875df30aa18073df8206500997e087bb580929ddc68cea3",
-          "after": "/root/.cache/hyperframes/history/429f4e15-875e-411a-b7bd-711dbba652ed/blobs/14/14ba0d8f7773edb3d7892c3c5f93eff5f6d666feb1c4a07b60672f6f5889aaca"
-        },
-        "index.html": {
-          "before": "/root/.cache/hyperframes/history/429f4e15-875e-411a-b7bd-711dbba652ed/blobs/d9/d9166c149c0d27c3396622b5336da1432119811132c9bbdf205f876f7811051b",
-          "after": "/root/.cache/hyperframes/history/429f4e15-875e-411a-b7bd-711dbba652ed/blobs/12/1265890072eb535e77ffb269d7068e25d4da05e9e3dd7b86dac94239b86feb2d"
+          "before": "/root/.cache/hyperframes/history/429f4e15-875e-411a-b7bd-711dbba652ed/blobs/e5/e52056f2aff92dac69c9bd1d3788a4b43a7c7d5fcedf0ad73f3362a9186e3b5b",
+          "after": "/root/.cache/hyperframes/history/429f4e15-875e-411a-b7bd-711dbba652ed/blobs/ed/eda9ebf47fb66193f8152f9d800d0e2586572cb2715fbfae9b229f3b4af91ee4"
         }
       }
     }
   },
   "checks": {
     "latest": {
-      "revision": "0960c497-e077-43b1-b43f-52f280cb6365",
-      "id": "c9c822a7-7e83-456e-8fa7-75c16c0246fc"
+      "revision": "aff08d6a-4f40-412c-9b88-e4df30ce51a0",
+      "id": "a97783fa-aa83-487b-ab80-7d74b5881493"
     },
     "revisions": {
-      "28e940e7-5b51-4d00-9e06-d58a6cd3e75a": [
+      "28e940e7-5b51-4d00-9e06-d58a6cd3e75a": [],
+      "0960c497-e077-43b1-b43f-52f280cb6365": [],
+      "aff08d6a-4f40-412c-9b88-e4df30ce51a0": [
         {
-          "id": "4c2fe08f-016c-4b12-9b80-9c4d19032b5a",
+          "id": "a97783fa-aa83-487b-ab80-7d74b5881493",
           "scope": "project",
-          "report": "/home/user/MOTION-/videos/galzin-sandwich-panini/.hyperframes/artifacts/checks/4c2fe08f-016c-4b12-9b80-9c4d19032b5a.json",
+          "report": "/home/user/MOTION-COP/videos/galzin-sandwich-panini/.hyperframes/artifacts/checks/a97783fa-aa83-487b-ab80-7d74b5881493.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -128,39 +111,10 @@
               "browserGpuMode": "auto"
             }
           },
-          "createdAt": 1792591600232,
-          "contentHash": "39bcbfb365cb6fbdbed9ee12d22af6065558e60eda04c06cadf614d02bd43fe9",
-          "revision": "28e940e7-5b51-4d00-9e06-d58a6cd3e75a",
-          "inputFingerprint": "949c4b28768f816c381b12a440605a6fbf7db6f87b5b9ffada2b2a21d80b5ea0",
-          "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
-        }
-      ],
-      "0960c497-e077-43b1-b43f-52f280cb6365": [
-        {
-          "id": "c9c822a7-7e83-456e-8fa7-75c16c0246fc",
-          "scope": "project",
-          "report": "/home/user/MOTION-/videos/galzin-sandwich-panini/.hyperframes/artifacts/checks/c9c822a7-7e83-456e-8fa7-75c16c0246fc.json",
-          "metadata": {
-            "ok": true,
-            "browserSkipped": false,
-            "options": {
-              "samples": 9,
-              "atTransitions": false,
-              "maxIssues": 80,
-              "collapseStatic": true,
-              "tolerance": 2,
-              "timeout": 3000,
-              "contrast": true,
-              "strict": false,
-              "snapshots": false,
-              "browserGpuMode": "auto"
-            }
-          },
-          "createdAt": 1792591826213,
-          "contentHash": "39bcbfb365cb6fbdbed9ee12d22af6065558e60eda04c06cadf614d02bd43fe9",
-          "revision": "0960c497-e077-43b1-b43f-52f280cb6365",
-          "inputFingerprint": "0e4cdb7e25c37a9ce1f486be5263bd6d32f877f2a51074c4917d01d3b178f074",
+          "createdAt": 1794829139481,
+          "contentHash": "a2f76b8c262a2382e13fda78fe044a5a33ebe9b02bfa5d47bda479d576e25238",
+          "revision": "aff08d6a-4f40-412c-9b88-e4df30ce51a0",
+          "inputFingerprint": "715b0a3a863e8d5bf3c5c2b67b2f02112ab7715f8afde48d5a15f3302a399da9",
           "inputScope": "local-project-files",
           "attribution": "recorded-revision"
         }
@@ -168,11 +122,11 @@
     },
     "unversioned": [
       {
-        "id": "fe49b8a5-7e8c-43ac-aa83-c7f8db4a0db0",
+        "id": "26e77992-9b86-413f-8640-9dbb16c96efa",
         "scope": "project",
-        "report": "/home/user/MOTION-/videos/galzin-sandwich-panini/.hyperframes/artifacts/checks/fe49b8a5-7e8c-43ac-aa83-c7f8db4a0db0.json",
+        "report": "/home/user/MOTION-COP/videos/galzin-sandwich-panini/.hyperframes/artifacts/checks/26e77992-9b86-413f-8640-9dbb16c96efa.json",
         "metadata": {
-          "ok": true,
+          "ok": false,
           "browserSkipped": false,
           "options": {
             "samples": 9,
@@ -187,10 +141,10 @@
             "browserGpuMode": "auto"
           }
         },
-        "createdAt": 1792591578577,
-        "contentHash": "5180d341cdc63dae3b14b56fd3eff647ea445c4296b5432caaa4050f6ff3f717",
+        "createdAt": 1794829105057,
+        "contentHash": "7ebc8fa45003ad30a29aee90a5a76b4f021f0982c031a66e02824939dce8c391",
         "revision": null,
-        "inputFingerprint": "49fbea7944ac722053d64605a8497001ddd90464c7ef18d7cd7dc38a23b4fd1f",
+        "inputFingerprint": "526801ecbff52587342b1978bad125abaaaea1df00bcbeb61683cfca8f102027",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       }
@@ -198,16 +152,49 @@
   },
   "snapshots": {
     "latest": {
-      "revision": null,
-      "id": "778394e7-6ac7-41de-a90e-2db3e02ccff9-5"
+      "revision": "aff08d6a-4f40-412c-9b88-e4df30ce51a0",
+      "id": "629d8ea9-a459-4478-a920-ccf607dd1a4a-0"
     },
-    "revisions": {},
+    "revisions": {
+      "aff08d6a-4f40-412c-9b88-e4df30ce51a0": [
+        {
+          "scope": "crop",
+          "id": "629d8ea9-a459-4478-a920-ccf607dd1a4a-0",
+          "image": "/tmp/claude-0/-home-user-MOTION-COP/c72bc6ee-4cda-521e-a53d-ad2b5360bb44/scratchpad/snap/sp2/frame-00-at-12.5s.png",
+          "time": 12.5,
+          "metadata": {
+            "width": 450,
+            "height": 205,
+            "crop": {
+              "x": 1226.8447265625,
+              "y": 773.7798461914062,
+              "width": 450.5570068359375,
+              "height": 204.9581298828125
+            },
+            "zoom": {
+              "kind": "selector",
+              "selector": "#oval"
+            },
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794829134694,
+          "contentHash": "d3ab3a00d44d675b5130e7c7ac7d0ba85f2b00ffd0095c42ea6e9b4646d02e24",
+          "revision": "aff08d6a-4f40-412c-9b88-e4df30ce51a0",
+          "inputFingerprint": "715b0a3a863e8d5bf3c5c2b67b2f02112ab7715f8afde48d5a15f3302a399da9",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
     "unversioned": [
       {
         "scope": "full",
-        "id": "778394e7-6ac7-41de-a90e-2db3e02ccff9-0",
-        "image": "/home/user/MOTION-/videos/galzin-sandwich-panini/.hyperframes/artifacts/snapshots/80ad633b-22b3-449f-93f0-0ddcfd35c998/frame-00-at-2.4s.png",
-        "time": 2.4,
+        "id": "f803b05e-0dd2-4d10-9420-b2126d5a47ca-0",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/c72bc6ee-4cda-521e-a53d-ad2b5360bb44/scratchpad/snap/sp/frame-00-at-8.5s.png",
+        "time": 8.5,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -216,18 +203,18 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792591582669,
-        "contentHash": "801d34d93cf3d97c1fd1f1e0b143ad2f89336a92e9521688d9a9fc7e38036d60",
+        "createdAt": 1794829121481,
+        "contentHash": "d4bf67f794b2f81f3ef53453e37410d58cdf7ce8f04e5d451b734d7a1cd1e59c",
         "revision": null,
-        "inputFingerprint": "49fbea7944ac722053d64605a8497001ddd90464c7ef18d7cd7dc38a23b4fd1f",
+        "inputFingerprint": "526801ecbff52587342b1978bad125abaaaea1df00bcbeb61683cfca8f102027",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "778394e7-6ac7-41de-a90e-2db3e02ccff9-1",
-        "image": "/home/user/MOTION-/videos/galzin-sandwich-panini/.hyperframes/artifacts/snapshots/80ad633b-22b3-449f-93f0-0ddcfd35c998/frame-01-at-4.6s.png",
-        "time": 4.6,
+        "id": "f803b05e-0dd2-4d10-9420-b2126d5a47ca-1",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/c72bc6ee-4cda-521e-a53d-ad2b5360bb44/scratchpad/snap/sp/frame-01-at-12.5s.png",
+        "time": 12.5,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -236,90 +223,10 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792591582669,
-        "contentHash": "2985ccfb9d3dbb55d09dc5e34d6c570253c28e8544ed2c1d58410333a75779f6",
+        "createdAt": 1794829121482,
+        "contentHash": "77642e3c4d63a85564a3ddcf149c8a4c3673bd7d38860f3f4dc284d34ce0674d",
         "revision": null,
-        "inputFingerprint": "49fbea7944ac722053d64605a8497001ddd90464c7ef18d7cd7dc38a23b4fd1f",
-        "inputScope": "local-project-files",
-        "attribution": "unversioned"
-      },
-      {
-        "scope": "full",
-        "id": "778394e7-6ac7-41de-a90e-2db3e02ccff9-2",
-        "image": "/home/user/MOTION-/videos/galzin-sandwich-panini/.hyperframes/artifacts/snapshots/80ad633b-22b3-449f-93f0-0ddcfd35c998/frame-02-at-6.8s.png",
-        "time": 6.8,
-        "metadata": {
-          "width": 1920,
-          "height": 1080,
-          "zoomScale": 1,
-          "browserGpuMode": "auto",
-          "warnings": [],
-          "partial": false
-        },
-        "createdAt": 1792591582669,
-        "contentHash": "87e0e5f8d3cad9235fa2e7ed4f746dcc743c0cdc7544de5eef038a26dd62142b",
-        "revision": null,
-        "inputFingerprint": "49fbea7944ac722053d64605a8497001ddd90464c7ef18d7cd7dc38a23b4fd1f",
-        "inputScope": "local-project-files",
-        "attribution": "unversioned"
-      },
-      {
-        "scope": "full",
-        "id": "778394e7-6ac7-41de-a90e-2db3e02ccff9-3",
-        "image": "/home/user/MOTION-/videos/galzin-sandwich-panini/.hyperframes/artifacts/snapshots/80ad633b-22b3-449f-93f0-0ddcfd35c998/frame-03-at-9.2s.png",
-        "time": 9.2,
-        "metadata": {
-          "width": 1920,
-          "height": 1080,
-          "zoomScale": 1,
-          "browserGpuMode": "auto",
-          "warnings": [],
-          "partial": false
-        },
-        "createdAt": 1792591582669,
-        "contentHash": "424946c33389fc7348fabe62a08204df36eb5dad4e108c17221bd15c2bb1a8db",
-        "revision": null,
-        "inputFingerprint": "49fbea7944ac722053d64605a8497001ddd90464c7ef18d7cd7dc38a23b4fd1f",
-        "inputScope": "local-project-files",
-        "attribution": "unversioned"
-      },
-      {
-        "scope": "full",
-        "id": "778394e7-6ac7-41de-a90e-2db3e02ccff9-4",
-        "image": "/home/user/MOTION-/videos/galzin-sandwich-panini/.hyperframes/artifacts/snapshots/80ad633b-22b3-449f-93f0-0ddcfd35c998/frame-04-at-10.6s.png",
-        "time": 10.6,
-        "metadata": {
-          "width": 1920,
-          "height": 1080,
-          "zoomScale": 1,
-          "browserGpuMode": "auto",
-          "warnings": [],
-          "partial": false
-        },
-        "createdAt": 1792591582669,
-        "contentHash": "a3e183f48124a6356a4e89e497df2e81c67824c52a5f7f6fb47b6c7f7d730d13",
-        "revision": null,
-        "inputFingerprint": "49fbea7944ac722053d64605a8497001ddd90464c7ef18d7cd7dc38a23b4fd1f",
-        "inputScope": "local-project-files",
-        "attribution": "unversioned"
-      },
-      {
-        "scope": "full",
-        "id": "778394e7-6ac7-41de-a90e-2db3e02ccff9-5",
-        "image": "/home/user/MOTION-/videos/galzin-sandwich-panini/.hyperframes/artifacts/snapshots/80ad633b-22b3-449f-93f0-0ddcfd35c998/frame-05-at-14.6s.png",
-        "time": 14.6,
-        "metadata": {
-          "width": 1920,
-          "height": 1080,
-          "zoomScale": 1,
-          "browserGpuMode": "auto",
-          "warnings": [],
-          "partial": false
-        },
-        "createdAt": 1792591582669,
-        "contentHash": "81770dfb5baf99a4cbd288c7d22550cbf515661f21def52ddd8257ccf5f19c33",
-        "revision": null,
-        "inputFingerprint": "49fbea7944ac722053d64605a8497001ddd90464c7ef18d7cd7dc38a23b4fd1f",
+        "inputFingerprint": "526801ecbff52587342b1978bad125abaaaea1df00bcbeb61683cfca8f102027",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       }

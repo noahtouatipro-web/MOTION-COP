@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "bf480242-712b-46e5-8740-eb3792581a3a",
-  "currentRevision": "0fc44443-d7a8-4e79-8baf-01fc3a256c1d",
+  "currentRevision": null,
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -44,6 +44,10 @@
       "hash": "34739add6e6d01bb9357d2197013f4fc10a86b28d83d819388599d2f6afe9fd3",
       "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/34/34739add6e6d01bb9357d2197013f4fc10a86b28d83d819388599d2f6afe9fd3"
     },
+    "assets/img/donut.png": {
+      "hash": "14ba0d8f7773edb3d7892c3c5f93eff5f6d666feb1c4a07b60672f6f5889aaca",
+      "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/14/14ba0d8f7773edb3d7892c3c5f93eff5f6d666feb1c4a07b60672f6f5889aaca"
+    },
     "assets/img/feuillete-pomme.png": {
       "hash": "451f1d22e7fc96218b382c624f45730bed0df773d764808bf84c7fa8cb86d523",
       "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/45/451f1d22e7fc96218b382c624f45730bed0df773d764808bf84c7fa8cb86d523"
@@ -55,6 +59,10 @@
     "assets/img/galzin-logo.png": {
       "hash": "cecafd282174ffd12acad46cfec18e5123f19caa77390c6481e97ebe1594aeb5",
       "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/ce/cecafd282174ffd12acad46cfec18e5123f19caa77390c6481e97ebe1594aeb5"
+    },
+    "assets/img/parisien.png": {
+      "hash": "919623aa25e06f3472a3fb2163bd98d84b70d25123688a1678bb677e70d73b30",
+      "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/91/919623aa25e06f3472a3fb2163bd98d84b70d25123688a1678bb677e70d73b30"
     },
     "assets/img/roule.png": {
       "hash": "678d84fccb30bae00b65ec60f7e7db5190ed77188404224904d9a91722ea13f7",
@@ -73,8 +81,8 @@
       "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/e5/e5da816b77f863aa4798d974bc68d65805329ca4d39ebcf353967c5b47e677a6"
     },
     "index.html": {
-      "hash": "166a0e2a6a5991c8acdd6d54b0900922b622d3ef649cf0c213652207cc0e52ef",
-      "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/16/166a0e2a6a5991c8acdd6d54b0900922b622d3ef649cf0c213652207cc0e52ef"
+      "hash": "1446604b9d6e9cb0ad9c4085d3e55438b72d107da5aabcb5f0ee8a0b85323632",
+      "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/14/1446604b9d6e9cb0ad9c4085d3e55438b72d107da5aabcb5f0ee8a0b85323632"
     },
     "meta.json": {
       "hash": "f92c288a5b1ed23a40bebf423900d01e8718a3205c2b0993214e7bd07efa68d9",
@@ -100,6 +108,18 @@
       "hash": "a6f71a3d32981d1a5f5c201a1e5ffbf6a58e1c314f2f9ec68df02c41ad2176dc",
       "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/a6/a6f71a3d32981d1a5f5c201a1e5ffbf6a58e1c314f2f9ec68df02c41ad2176dc"
     },
+    "assets/img/mixte.png": {
+      "hash": "870fbf4f6291269ea58274904ccdea588c1fbfb446df1446cdb14ab3c41a93e2",
+      "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/87/870fbf4f6291269ea58274904ccdea588c1fbfb446df1446cdb14ab3c41a93e2"
+    },
+    "assets/img/poulet-kebab.png": {
+      "hash": "1264144c9ae4421a3574a3c5a0df50974c5efc02033562b13a2e337444b8bd38",
+      "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/12/1264144c9ae4421a3574a3c5a0df50974c5efc02033562b13a2e337444b8bd38"
+    },
+    "assets/img/reblochon.png": {
+      "hash": "d853e7cac0837d44d8ee8487144b1dacad52973d94f9883d00f1d77ed2c4f15b",
+      "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/d8/d853e7cac0837d44d8ee8487144b1dacad52973d94f9883d00f1d77ed2c4f15b"
+    },
     "assets/img/salade.png": {
       "hash": "81533b24b8e8335eceff20a1b3d875d333813bab33b1385db9978bdb47c9e6b6",
       "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/81/81533b24b8e8335eceff20a1b3d875d333813bab33b1385db9978bdb47c9e6b6"
@@ -115,186 +135,22 @@
     "assets/img/wrap.png": {
       "hash": "31e0dda650b443d0955bc04d48a810b0b6bf40086c147eb83e3443fbee477c05",
       "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/31/31e0dda650b443d0955bc04d48a810b0b6bf40086c147eb83e3443fbee477c05"
-    },
-    "assets/img/donut.png": {
-      "hash": "14ba0d8f7773edb3d7892c3c5f93eff5f6d666feb1c4a07b60672f6f5889aaca",
-      "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/14/14ba0d8f7773edb3d7892c3c5f93eff5f6d666feb1c4a07b60672f6f5889aaca"
-    },
-    "assets/img/mixte.png": {
-      "hash": "870fbf4f6291269ea58274904ccdea588c1fbfb446df1446cdb14ab3c41a93e2",
-      "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/87/870fbf4f6291269ea58274904ccdea588c1fbfb446df1446cdb14ab3c41a93e2"
-    },
-    "assets/img/parisien.png": {
-      "hash": "919623aa25e06f3472a3fb2163bd98d84b70d25123688a1678bb677e70d73b30",
-      "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/91/919623aa25e06f3472a3fb2163bd98d84b70d25123688a1678bb677e70d73b30"
-    },
-    "assets/img/poulet-kebab.png": {
-      "hash": "1264144c9ae4421a3574a3c5a0df50974c5efc02033562b13a2e337444b8bd38",
-      "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/12/1264144c9ae4421a3574a3c5a0df50974c5efc02033562b13a2e337444b8bd38"
-    },
-    "assets/img/reblochon.png": {
-      "hash": "d853e7cac0837d44d8ee8487144b1dacad52973d94f9883d00f1d77ed2c4f15b",
-      "content": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/d8/d853e7cac0837d44d8ee8487144b1dacad52973d94f9883d00f1d77ed2c4f15b"
     }
   },
-  "revisions": {
-    "4fad1784-bddb-4537-bd1a-dbb0bfc1e8c3": {
-      "actor": {
-        "kind": "outside",
-        "name": "Outside"
-      },
-      "label": "Changed outside the app",
-      "startedAt": 1792659135894,
-      "endedAt": 1792659135895,
-      "files": {
-        "index.html": {
-          "before": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/28/28ca280c454fad1e706352b52b1b207f5c91a4bb6bd0146d2a65d3a7fe6d6b2e",
-          "after": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/cc/cc6b46ba1bfe6e732c00a95c96915630a5617f65ed3847ee046128e38a2f02c1"
-        }
-      }
-    },
-    "21e31703-f9c5-4d81-a5b0-ebd2b9bda803": {
-      "actor": {
-        "kind": "outside",
-        "name": "Outside"
-      },
-      "label": "Changed outside the app",
-      "startedAt": 1792660058141,
-      "endedAt": 1792660058291,
-      "files": {
-        "assets/img/brioche.png": {
-          "before": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/19/19c1705fe143094fb21baee4db83557f574bd5fb9fa932ae36daf47585489380",
-          "after": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/35/35355f0838ddf063c36821bc09bddf9258c235c28fec18c027ca16eb351e8407"
-        },
-        "assets/img/croissant.png": {
-          "before": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/45/457511a3e3e5b8bbb8977c6de4916e19e004955cb43ade41a9974467acf35cc3",
-          "after": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/34/34739add6e6d01bb9357d2197013f4fc10a86b28d83d819388599d2f6afe9fd3"
-        },
-        "assets/img/donut.png": {
-          "before": null,
-          "after": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/14/14ba0d8f7773edb3d7892c3c5f93eff5f6d666feb1c4a07b60672f6f5889aaca"
-        },
-        "assets/img/mixte.png": {
-          "before": null,
-          "after": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/87/870fbf4f6291269ea58274904ccdea588c1fbfb446df1446cdb14ab3c41a93e2"
-        },
-        "assets/img/parisien.png": {
-          "before": null,
-          "after": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/91/919623aa25e06f3472a3fb2163bd98d84b70d25123688a1678bb677e70d73b30"
-        },
-        "assets/img/poulet-kebab.png": {
-          "before": null,
-          "after": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/12/1264144c9ae4421a3574a3c5a0df50974c5efc02033562b13a2e337444b8bd38"
-        },
-        "assets/img/reblochon.png": {
-          "before": null,
-          "after": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/d8/d853e7cac0837d44d8ee8487144b1dacad52973d94f9883d00f1d77ed2c4f15b"
-        },
-        "assets/img/roule.png": {
-          "before": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/3b/3ba78c2830a455feca298192dc7ffda59c14121b3616e4884065b12e2f849f8a",
-          "after": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/67/678d84fccb30bae00b65ec60f7e7db5190ed77188404224904d9a91722ea13f7"
-        },
-        "index.html": {
-          "before": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/cc/cc6b46ba1bfe6e732c00a95c96915630a5617f65ed3847ee046128e38a2f02c1",
-          "after": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/16/166a0e2a6a5991c8acdd6d54b0900922b622d3ef649cf0c213652207cc0e52ef"
-        }
-      }
-    },
-    "0fc44443-d7a8-4e79-8baf-01fc3a256c1d": {
-      "actor": {
-        "kind": "outside",
-        "name": "Outside"
-      },
-      "label": "Changed outside the app",
-      "startedAt": 1792677053600,
-      "endedAt": 1792677053659,
-      "files": {
-        "assets/img/baba.png": {
-          "before": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/89/89c4bdb50363628c3c4817ac94c5c56d34031ed55da9b8c197641ee6b9d79115",
-          "after": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/25/25155a4f08810a4435b43f676ac706a851aa740077fa156e91c5bce652d33a47"
-        },
-        "assets/img/brioche.png": {
-          "before": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/35/35355f0838ddf063c36821bc09bddf9258c235c28fec18c027ca16eb351e8407",
-          "after": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/51/51cb66546cdda64d9d60b36d5ede7fd905a9453a9c6e06595655b0f9937179b6"
-        },
-        "assets/img/tarte-fraises.png": {
-          "before": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/13/133d09a1404f72decaebbed75c5f2c6fc533622d7708235bf905a35cbf869743",
-          "after": "/root/.cache/hyperframes/history/bf480242-712b-46e5-8740-eb3792581a3a/blobs/cb/cb2e4ecd158bdcb9d3c98dde8d1cbbf9250e1bc2fab6ce6a4b156c9170c67572"
-        }
-      }
-    }
-  },
+  "revisions": {},
   "checks": {
     "latest": {
-      "revision": "21e31703-f9c5-4d81-a5b0-ebd2b9bda803",
-      "id": "2e4faa12-6122-4f92-b518-1ef1f7794402"
+      "revision": null,
+      "id": "38034f34-c603-48c5-b8d6-7c149884caf2"
     },
     "revisions": {
-      "4fad1784-bddb-4537-bd1a-dbb0bfc1e8c3": [
-        {
-          "id": "59a83add-aed9-4048-8d23-6ac5d2d4b06b",
-          "scope": "project",
-          "metadata": {
-            "ok": true,
-            "browserSkipped": false,
-            "options": {
-              "samples": 9,
-              "atTransitions": false,
-              "maxIssues": 80,
-              "collapseStatic": true,
-              "tolerance": 2,
-              "timeout": 3000,
-              "contrast": true,
-              "strict": false,
-              "snapshots": false,
-              "browserGpuMode": "auto"
-            }
-          },
-          "createdAt": 1792659153248,
-          "contentHash": "161f47ef87bdc1d978e5e8153d86fc7017ac2895aeada6173ad9fbd2f7ee8843",
-          "revision": "4fad1784-bddb-4537-bd1a-dbb0bfc1e8c3",
-          "inputFingerprint": "9c8c56e35b343aa987fec2e669eedab3b0f8f6191f43cf03dbccb59a037c9c6b",
-          "inputScope": "local-project-files",
-          "attribution": "recorded-revision",
-          "status": "cleaned",
-          "cleanedAfterRender": "f80f1f4b-327c-4f0b-84a0-27d581847cd9"
-        }
-      ],
-      "21e31703-f9c5-4d81-a5b0-ebd2b9bda803": [
-        {
-          "id": "2e4faa12-6122-4f92-b518-1ef1f7794402",
-          "scope": "project",
-          "report": "/home/user/MOTION-/videos/galzin-affiches/.hyperframes/artifacts/checks/2e4faa12-6122-4f92-b518-1ef1f7794402.json",
-          "metadata": {
-            "ok": true,
-            "browserSkipped": false,
-            "options": {
-              "samples": 9,
-              "atTransitions": false,
-              "maxIssues": 80,
-              "collapseStatic": true,
-              "tolerance": 2,
-              "timeout": 3000,
-              "contrast": true,
-              "strict": false,
-              "snapshots": false,
-              "browserGpuMode": "auto"
-            }
-          },
-          "createdAt": 1792660078717,
-          "contentHash": "43d8468858825aa3ae5958c53864c6ca8b35ebdc667313e79ecec8c85ad02ca8",
-          "revision": "21e31703-f9c5-4d81-a5b0-ebd2b9bda803",
-          "inputFingerprint": "14c30b8467641ac4b78d594470193fb7a8c078f3fcb9be07f1aa28cad5096994",
-          "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
-        }
-      ]
+      "21e31703-f9c5-4d81-a5b0-ebd2b9bda803": []
     },
     "unversioned": [
       {
-        "id": "1da38915-9f5e-48b7-a785-ce2121381b05",
+        "id": "38034f34-c603-48c5-b8d6-7c149884caf2",
         "scope": "project",
-        "report": "/home/user/MOTION-/videos/galzin-affiches/.hyperframes/artifacts/checks/1da38915-9f5e-48b7-a785-ce2121381b05.json",
+        "report": "/home/user/MOTION-COP/videos/galzin-affiches/.hyperframes/artifacts/checks/38034f34-c603-48c5-b8d6-7c149884caf2.json",
         "metadata": {
           "ok": true,
           "browserSkipped": false,
@@ -311,20 +167,17 @@
             "browserGpuMode": "auto"
           }
         },
-        "createdAt": 1792659116997,
-        "contentHash": "161f47ef87bdc1d978e5e8153d86fc7017ac2895aeada6173ad9fbd2f7ee8843",
+        "createdAt": 1794829014529,
+        "contentHash": "43d8468858825aa3ae5958c53864c6ca8b35ebdc667313e79ecec8c85ad02ca8",
         "revision": null,
-        "inputFingerprint": "de8a15498cbcd28ae2ba6564dd6ae94eeba3c6b5a78afdaaae49ace310128dd1",
+        "inputFingerprint": "98b7ebb695148b47c0451d8bbc71304fa46763f704b0966a151896ae8b4216c9",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       }
     ]
   },
   "snapshots": {
-    "latest": {
-      "revision": "21e31703-f9c5-4d81-a5b0-ebd2b9bda803",
-      "id": "d866c8d0-bede-4b73-a108-cec5f015320e-7"
-    },
+    "latest": null,
     "revisions": {
       "21e31703-f9c5-4d81-a5b0-ebd2b9bda803": [
         {

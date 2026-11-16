@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "5a000b3f-f8ee-4a30-ac76-6f6552f9fce9",
-  "currentRevision": "172afa8b-fc0e-45ab-a881-6a7ccd31e80b",
+  "currentRevision": "b1a8ea4a-fafc-43f5-97e8-43f5b4b23227",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -44,6 +44,10 @@
       "hash": "c9793651ebafafe94b1dee3e64352e5c028c871a32294d4d73ed5cc0299a6427",
       "content": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/c9/c9793651ebafafe94b1dee3e64352e5c028c871a32294d4d73ed5cc0299a6427"
     },
+    "assets/img/flan.png": {
+      "hash": "47ee29bd545ae94298243232a8f1117fa795cf0269288be974421c103e5e770b",
+      "content": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/47/47ee29bd545ae94298243232a8f1117fa795cf0269288be974421c103e5e770b"
+    },
     "assets/img/galzin-logo.png": {
       "hash": "cecafd282174ffd12acad46cfec18e5123f19caa77390c6481e97ebe1594aeb5",
       "content": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/ce/cecafd282174ffd12acad46cfec18e5123f19caa77390c6481e97ebe1594aeb5"
@@ -57,8 +61,8 @@
       "content": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/e5/e5da816b77f863aa4798d974bc68d65805329ca4d39ebcf353967c5b47e677a6"
     },
     "index.html": {
-      "hash": "bd279566512fa35c6352f2c37941fbda767811263484efa5c7b8ab39f2cdfac9",
-      "content": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/bd/bd279566512fa35c6352f2c37941fbda767811263484efa5c7b8ab39f2cdfac9"
+      "hash": "5ea1d11523aa07628b343d7e289d1743a05079c7270bf23c48fb4dea502978b1",
+      "content": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/5e/5ea1d11523aa07628b343d7e289d1743a05079c7270bf23c48fb4dea502978b1"
     },
     "meta.json": {
       "hash": "5758af32cfe1e98f69ec98b7fa7c2d8e0dcbe9b9e15b7029aaff37bcc3c122b7",
@@ -72,193 +76,44 @@
       "hash": "30a575656c573d18ef4c29db483e2b0ff9822b7f8f039011eac6bbba422550e0",
       "content": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/30/30a575656c573d18ef4c29db483e2b0ff9822b7f8f039011eac6bbba422550e0"
     },
-    "assets/img/tielle.png": {
-      "hash": "a12817d1d096b141480291b797a58a74c3ca8b44e495a75df035fbf857a42b6a",
-      "content": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/a1/a12817d1d096b141480291b797a58a74c3ca8b44e495a75df035fbf857a42b6a"
-    },
-    "assets/img/flan.png": {
-      "hash": "47ee29bd545ae94298243232a8f1117fa795cf0269288be974421c103e5e770b",
-      "content": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/47/47ee29bd545ae94298243232a8f1117fa795cf0269288be974421c103e5e770b"
-    },
     "assets/img/tarte-fraises.png": {
       "hash": "cb2e4ecd158bdcb9d3c98dde8d1cbbf9250e1bc2fab6ce6a4b156c9170c67572",
       "content": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/cb/cb2e4ecd158bdcb9d3c98dde8d1cbbf9250e1bc2fab6ce6a4b156c9170c67572"
+    },
+    "assets/img/tielle.png": {
+      "hash": "a12817d1d096b141480291b797a58a74c3ca8b44e495a75df035fbf857a42b6a",
+      "content": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/a1/a12817d1d096b141480291b797a58a74c3ca8b44e495a75df035fbf857a42b6a"
     }
   },
   "revisions": {
-    "5c07664f-9c81-465e-bd43-4d4cd07adf78": {
+    "b1a8ea4a-fafc-43f5-97e8-43f5b4b23227": {
       "actor": {
         "kind": "outside",
         "name": "Outside"
       },
       "label": "Changed outside the app",
-      "startedAt": 1792589894783,
-      "endedAt": 1792589894785,
+      "startedAt": 1794829231273,
+      "endedAt": 1794829231274,
       "files": {
         "index.html": {
-          "before": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/cf/cf5baa6192bc3730773e5d672ad99be05b6c96ffa9ff6dd79739980397b6ab05",
-          "after": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/c6/c6805de58bb476017b377be1723bdea64778174a8080e5b6e74917bffdc655a0"
-        }
-      }
-    },
-    "54852335-94dd-4875-a63a-b59f2103eb83": {
-      "actor": {
-        "kind": "outside",
-        "name": "Outside"
-      },
-      "label": "Changed outside the app",
-      "startedAt": 1792589905011,
-      "endedAt": 1792589905012,
-      "files": {
-        "index.html": {
-          "before": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/c6/c6805de58bb476017b377be1723bdea64778174a8080e5b6e74917bffdc655a0",
-          "after": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/4a/4aec7b5fa6198ba42c61ad3b4d84ac75c16ad9af93295a2ad826ba7941aebb21"
-        }
-      }
-    },
-    "0186f96c-be6c-4a97-98c4-71afa2265d35": {
-      "actor": {
-        "kind": "outside",
-        "name": "Outside"
-      },
-      "label": "Changed outside the app",
-      "startedAt": 1792589914850,
-      "endedAt": 1792589914853,
-      "files": {
-        "index.html": {
-          "before": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/4a/4aec7b5fa6198ba42c61ad3b4d84ac75c16ad9af93295a2ad826ba7941aebb21",
-          "after": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/ba/ba13b95112a3994887a8f2309b18bcb80afe3941746fbf94ece6c277dc5a005e"
-        }
-      }
-    },
-    "286784ee-a1c5-45fb-b538-1b01b5a302b5": {
-      "actor": {
-        "kind": "outside",
-        "name": "Outside"
-      },
-      "label": "Changed outside the app",
-      "startedAt": 1792590542650,
-      "endedAt": 1792590543128,
-      "files": {
-        "assets/img/flan.png": {
-          "before": null,
-          "after": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/47/47ee29bd545ae94298243232a8f1117fa795cf0269288be974421c103e5e770b"
-        },
-        "assets/img/tarte-fraises.png": {
-          "before": null,
-          "after": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/76/762a030939c10f2e2b7ea6c8d02ee1d6f82e82a42935ce3d3e9916dea3adfc9f"
-        },
-        "index.html": {
-          "before": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/ba/ba13b95112a3994887a8f2309b18bcb80afe3941746fbf94ece6c277dc5a005e",
-          "after": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/88/88e437678bbaa3017908fb140aed46d6f9cedc8c88653317659ca16d98f12b06"
-        }
-      }
-    },
-    "fc10085f-46b4-4ec3-b5da-244745342367": {
-      "actor": {
-        "kind": "outside",
-        "name": "Outside"
-      },
-      "label": "Changed outside the app",
-      "startedAt": 1792590717431,
-      "endedAt": 1792590717440,
-      "files": {
-        "assets/img/tarte-fraises.png": {
-          "before": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/76/762a030939c10f2e2b7ea6c8d02ee1d6f82e82a42935ce3d3e9916dea3adfc9f",
-          "after": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/13/133d09a1404f72decaebbed75c5f2c6fc533622d7708235bf905a35cbf869743"
-        },
-        "index.html": {
-          "before": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/88/88e437678bbaa3017908fb140aed46d6f9cedc8c88653317659ca16d98f12b06",
-          "after": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/bd/bd279566512fa35c6352f2c37941fbda767811263484efa5c7b8ab39f2cdfac9"
-        }
-      }
-    },
-    "172afa8b-fc0e-45ab-a881-6a7ccd31e80b": {
-      "actor": {
-        "kind": "outside",
-        "name": "Outside"
-      },
-      "label": "Changed outside the app",
-      "startedAt": 1792677574014,
-      "endedAt": 1792677574015,
-      "files": {
-        "assets/img/tarte-fraises.png": {
-          "before": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/13/133d09a1404f72decaebbed75c5f2c6fc533622d7708235bf905a35cbf869743",
-          "after": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/cb/cb2e4ecd158bdcb9d3c98dde8d1cbbf9250e1bc2fab6ce6a4b156c9170c67572"
+          "before": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/91/91fe20eed3b4b82ded916ee531923cd97e7fec92c3702a8f4893952f8e4b82a8",
+          "after": "/root/.cache/hyperframes/history/5a000b3f-f8ee-4a30-ac76-6f6552f9fce9/blobs/5e/5ea1d11523aa07628b343d7e289d1743a05079c7270bf23c48fb4dea502978b1"
         }
       }
     }
   },
   "checks": {
     "latest": {
-      "revision": "fc10085f-46b4-4ec3-b5da-244745342367",
-      "id": "18e6109f-f059-4bcc-967c-53ee051de87f"
+      "revision": "b1a8ea4a-fafc-43f5-97e8-43f5b4b23227",
+      "id": "86eb763d-fb54-4d76-8f41-19e9235d4ef9"
     },
     "revisions": {
-      "5c07664f-9c81-465e-bd43-4d4cd07adf78": [
+      "fc10085f-46b4-4ec3-b5da-244745342367": [],
+      "b1a8ea4a-fafc-43f5-97e8-43f5b4b23227": [
         {
-          "id": "c4019160-c6a9-4406-811c-7dcb9c02615b",
+          "id": "86eb763d-fb54-4d76-8f41-19e9235d4ef9",
           "scope": "project",
-          "metadata": {
-            "ok": false,
-            "browserSkipped": false,
-            "options": {
-              "samples": 9,
-              "atTransitions": false,
-              "maxIssues": 80,
-              "collapseStatic": true,
-              "tolerance": 2,
-              "timeout": 3000,
-              "contrast": true,
-              "strict": false,
-              "snapshots": false,
-              "browserGpuMode": "auto"
-            }
-          },
-          "createdAt": 1792589896861,
-          "contentHash": "c357139248b252f4a31800b636e54a0c919eb75f3d0bb7b703f970c72609a150",
-          "revision": "5c07664f-9c81-465e-bd43-4d4cd07adf78",
-          "inputFingerprint": "53220374c2d3ba60e808112ff00f058c9dd186e535f3fdf78dd20f63e48c5209",
-          "inputScope": "local-project-files",
-          "attribution": "recorded-revision",
-          "status": "cleaned",
-          "cleanedAfterRender": "45a3a56d-fc11-4b5f-8d80-4e817e09142c"
-        }
-      ],
-      "54852335-94dd-4875-a63a-b59f2103eb83": [
-        {
-          "id": "a9e33c41-2a79-47f8-b8a7-957eed463e7e",
-          "scope": "project",
-          "metadata": {
-            "ok": false,
-            "browserSkipped": false,
-            "options": {
-              "samples": 9,
-              "atTransitions": false,
-              "maxIssues": 80,
-              "collapseStatic": true,
-              "tolerance": 2,
-              "timeout": 3000,
-              "contrast": true,
-              "strict": false,
-              "snapshots": false,
-              "browserGpuMode": "auto"
-            }
-          },
-          "createdAt": 1792589907068,
-          "contentHash": "a4f337dc8cde528057d9ecf29f942513f7d751cbae501ac2c032417c5ba996b9",
-          "revision": "54852335-94dd-4875-a63a-b59f2103eb83",
-          "inputFingerprint": "478bc9cc921616210e2363c94db6d498f7bca4d7a6ec7daf8054f437c057a128",
-          "inputScope": "local-project-files",
-          "attribution": "recorded-revision",
-          "status": "cleaned",
-          "cleanedAfterRender": "45a3a56d-fc11-4b5f-8d80-4e817e09142c"
-        }
-      ],
-      "0186f96c-be6c-4a97-98c4-71afa2265d35": [
-        {
-          "id": "1249cf43-713f-45a5-80d7-8713edb5d31e",
-          "scope": "project",
+          "report": "/home/user/MOTION-COP/videos/galzin-prix-garantis/.hyperframes/artifacts/checks/86eb763d-fb54-4d76-8f41-19e9235d4ef9.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -275,71 +130,10 @@
               "browserGpuMode": "auto"
             }
           },
-          "createdAt": 1792589916852,
+          "createdAt": 1794829238442,
           "contentHash": "f40ac10848ca84831b399953555b02373819cedcfd201eb662f0e2256a1a7c5d",
-          "revision": "0186f96c-be6c-4a97-98c4-71afa2265d35",
-          "inputFingerprint": "595ea5093db44486dddb5d330f2ea2e694888d96f5cc3079ca32284dd2e73766",
-          "inputScope": "local-project-files",
-          "attribution": "recorded-revision",
-          "status": "cleaned",
-          "cleanedAfterRender": "3778a72d-e835-4608-a376-cec097168b7a"
-        }
-      ],
-      "286784ee-a1c5-45fb-b538-1b01b5a302b5": [
-        {
-          "id": "532e42dd-776f-4df5-acd9-bc53f6fda99f",
-          "scope": "project",
-          "metadata": {
-            "ok": true,
-            "browserSkipped": false,
-            "options": {
-              "samples": 9,
-              "atTransitions": false,
-              "maxIssues": 80,
-              "collapseStatic": true,
-              "tolerance": 2,
-              "timeout": 3000,
-              "contrast": true,
-              "strict": false,
-              "snapshots": false,
-              "browserGpuMode": "auto"
-            }
-          },
-          "createdAt": 1792590546872,
-          "contentHash": "f40ac10848ca84831b399953555b02373819cedcfd201eb662f0e2256a1a7c5d",
-          "revision": "286784ee-a1c5-45fb-b538-1b01b5a302b5",
-          "inputFingerprint": "4857695644fa7eb156c8620cfbf0693e31de6490cba8b88a97b056ba631f366c",
-          "inputScope": "local-project-files",
-          "attribution": "recorded-revision",
-          "status": "cleaned",
-          "cleanedAfterRender": "40c0aa8e-a2ef-487d-8dab-457b318b8c2a"
-        }
-      ],
-      "fc10085f-46b4-4ec3-b5da-244745342367": [
-        {
-          "id": "18e6109f-f059-4bcc-967c-53ee051de87f",
-          "scope": "project",
-          "report": "/home/user/MOTION-/videos/galzin-prix-garantis/.hyperframes/artifacts/checks/18e6109f-f059-4bcc-967c-53ee051de87f.json",
-          "metadata": {
-            "ok": true,
-            "browserSkipped": false,
-            "options": {
-              "samples": 9,
-              "atTransitions": false,
-              "maxIssues": 80,
-              "collapseStatic": true,
-              "tolerance": 2,
-              "timeout": 3000,
-              "contrast": true,
-              "strict": false,
-              "snapshots": false,
-              "browserGpuMode": "auto"
-            }
-          },
-          "createdAt": 1792590719584,
-          "contentHash": "f40ac10848ca84831b399953555b02373819cedcfd201eb662f0e2256a1a7c5d",
-          "revision": "fc10085f-46b4-4ec3-b5da-244745342367",
-          "inputFingerprint": "044b81cbb60969e9a419d532a293b698d71fb0435404274eb461193870dc3f8a",
+          "revision": "b1a8ea4a-fafc-43f5-97e8-43f5b4b23227",
+          "inputFingerprint": "452c2ee41da6ec52fac8a3265b2f3cc235e85854e3e1f20fa33baaf11253e3cf",
           "inputScope": "local-project-files",
           "attribution": "recorded-revision"
         }
@@ -347,11 +141,11 @@
     },
     "unversioned": [
       {
-        "id": "45a03948-a9ae-4801-b95f-c6635c4a2e1c",
+        "id": "6b964f55-541b-4a98-ae46-4d973d55a591",
         "scope": "project",
-        "report": "/home/user/MOTION-/videos/galzin-prix-garantis/.hyperframes/artifacts/checks/45a03948-a9ae-4801-b95f-c6635c4a2e1c.json",
+        "report": "/home/user/MOTION-COP/videos/galzin-prix-garantis/.hyperframes/artifacts/checks/6b964f55-541b-4a98-ae46-4d973d55a591.json",
         "metadata": {
-          "ok": false,
+          "ok": true,
           "browserSkipped": false,
           "options": {
             "samples": 9,
@@ -366,10 +160,10 @@
             "browserGpuMode": "auto"
           }
         },
-        "createdAt": 1792589869456,
-        "contentHash": "e1370c3ab0a57f573d3405f42bc3701e5a2d42448ed8c1cf1692f2079182b41a",
+        "createdAt": 1794829093207,
+        "contentHash": "f40ac10848ca84831b399953555b02373819cedcfd201eb662f0e2256a1a7c5d",
         "revision": null,
-        "inputFingerprint": "06f9a7b958ad96a9bd25adce015ebb74faddf3c602ec4da340b9859ec4e4b50c",
+        "inputFingerprint": "bed6eda681814d006fb7c2e148459490a7acd34d1e1d624ba3b9c6f0b0779ebd",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       }
@@ -377,15 +171,16 @@
   },
   "snapshots": {
     "latest": {
-      "revision": null,
-      "id": "fead758e-2f3a-4c21-b2b6-66c54988fd7f-0"
+      "revision": "b1a8ea4a-fafc-43f5-97e8-43f5b4b23227",
+      "id": "f1261a31-dd44-40bc-aa20-d594d444fd8f-2"
     },
     "revisions": {
-      "286784ee-a1c5-45fb-b538-1b01b5a302b5": [
+      "b1a8ea4a-fafc-43f5-97e8-43f5b4b23227": [
         {
           "scope": "full",
-          "id": "ac5735cd-55a7-4393-a284-f13f6a6c6638-0",
-          "time": 10.8,
+          "id": "f1261a31-dd44-40bc-aa20-d594d444fd8f-0",
+          "image": "/tmp/claude-0/-home-user-MOTION-COP/c72bc6ee-4cda-521e-a53d-ad2b5360bb44/scratchpad/snap/pg2/frame-00-at-3.5s.png",
+          "time": 3.5,
           "metadata": {
             "width": 1920,
             "height": 1080,
@@ -394,19 +189,18 @@
             "warnings": [],
             "partial": false
           },
-          "createdAt": 1792590549157,
-          "contentHash": "b1dc85c98029e741a7fe8c7be75c64dad5f3905d7645a775f8d256db0871884b",
-          "revision": "286784ee-a1c5-45fb-b538-1b01b5a302b5",
-          "inputFingerprint": "4857695644fa7eb156c8620cfbf0693e31de6490cba8b88a97b056ba631f366c",
+          "createdAt": 1794829233841,
+          "contentHash": "8f86cbf7894231de9b0f7f9926c81b92d54281d56b0b97cfa25811652f653dd3",
+          "revision": "b1a8ea4a-fafc-43f5-97e8-43f5b4b23227",
+          "inputFingerprint": "452c2ee41da6ec52fac8a3265b2f3cc235e85854e3e1f20fa33baaf11253e3cf",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision",
-          "status": "cleaned",
-          "cleanedAfterRender": "40c0aa8e-a2ef-487d-8dab-457b318b8c2a"
+          "attribution": "recorded-revision"
         },
         {
           "scope": "full",
-          "id": "ac5735cd-55a7-4393-a284-f13f6a6c6638-1",
-          "time": 14.55,
+          "id": "f1261a31-dd44-40bc-aa20-d594d444fd8f-1",
+          "image": "/tmp/claude-0/-home-user-MOTION-COP/c72bc6ee-4cda-521e-a53d-ad2b5360bb44/scratchpad/snap/pg2/frame-01-at-7s.png",
+          "time": 7,
           "metadata": {
             "width": 1920,
             "height": 1080,
@@ -415,23 +209,41 @@
             "warnings": [],
             "partial": false
           },
-          "createdAt": 1792590549157,
-          "contentHash": "2019c2c4875e1db232af9f58c90e79e89fd09c6883b69f0a1f1fce6f425c4f84",
-          "revision": "286784ee-a1c5-45fb-b538-1b01b5a302b5",
-          "inputFingerprint": "4857695644fa7eb156c8620cfbf0693e31de6490cba8b88a97b056ba631f366c",
+          "createdAt": 1794829233841,
+          "contentHash": "fa58726b0016ce6a18cea39de9671037abe06e1f554397c8ccc09ad5684bac06",
+          "revision": "b1a8ea4a-fafc-43f5-97e8-43f5b4b23227",
+          "inputFingerprint": "452c2ee41da6ec52fac8a3265b2f3cc235e85854e3e1f20fa33baaf11253e3cf",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision",
-          "status": "cleaned",
-          "cleanedAfterRender": "40c0aa8e-a2ef-487d-8dab-457b318b8c2a"
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "f1261a31-dd44-40bc-aa20-d594d444fd8f-2",
+          "image": "/tmp/claude-0/-home-user-MOTION-COP/c72bc6ee-4cda-521e-a53d-ad2b5360bb44/scratchpad/snap/pg2/frame-02-at-10s.png",
+          "time": 10,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794829233841,
+          "contentHash": "e1bd6705b70b9d2e09f4095e611dfc2b2c18b8e0c8cdcaa67464f5c61b97cd7f",
+          "revision": "b1a8ea4a-fafc-43f5-97e8-43f5b4b23227",
+          "inputFingerprint": "452c2ee41da6ec52fac8a3265b2f3cc235e85854e3e1f20fa33baaf11253e3cf",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
         }
       ]
     },
     "unversioned": [
       {
         "scope": "full",
-        "id": "fead758e-2f3a-4c21-b2b6-66c54988fd7f-0",
-        "image": "/home/user/MOTION-/videos/galzin-prix-garantis/.hyperframes/artifacts/snapshots/ebad076a-16d0-4518-9204-39884b775ccf/frame-00-at-2s.png",
-        "time": 2,
+        "id": "e128b9d3-9d43-4543-809a-426f5512e337-0",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/c72bc6ee-4cda-521e-a53d-ad2b5360bb44/scratchpad/snap/prix-garantis/frame-00-at-5s.png",
+        "time": 5,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -440,18 +252,18 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792589873167,
-        "contentHash": "0d80f8f407e1a1b325130bd7419404b8a340007774b922591855981f27a150e0",
+        "createdAt": 1794829152156,
+        "contentHash": "0486326a8f2b975bebe2ded942c9304100b00f18e8798891f0f9eb80d2fb6371",
         "revision": null,
-        "inputFingerprint": "06f9a7b958ad96a9bd25adce015ebb74faddf3c602ec4da340b9859ec4e4b50c",
+        "inputFingerprint": "bed6eda681814d006fb7c2e148459490a7acd34d1e1d624ba3b9c6f0b0779ebd",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "fead758e-2f3a-4c21-b2b6-66c54988fd7f-1",
-        "image": "/home/user/MOTION-/videos/galzin-prix-garantis/.hyperframes/artifacts/snapshots/ebad076a-16d0-4518-9204-39884b775ccf/frame-01-at-4.6s.png",
-        "time": 4.6,
+        "id": "e128b9d3-9d43-4543-809a-426f5512e337-1",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/c72bc6ee-4cda-521e-a53d-ad2b5360bb44/scratchpad/snap/prix-garantis/frame-01-at-10s.png",
+        "time": 10,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -460,18 +272,18 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792589873167,
-        "contentHash": "9f4eb97ccb20a726b5cc54c51a2f050f13fa0723aee3285e04181094ce191141",
+        "createdAt": 1794829152156,
+        "contentHash": "4515e0a85b8c011a7c2de29460fd0e62add05b67959ea0c46741bad8c10262d5",
         "revision": null,
-        "inputFingerprint": "06f9a7b958ad96a9bd25adce015ebb74faddf3c602ec4da340b9859ec4e4b50c",
+        "inputFingerprint": "bed6eda681814d006fb7c2e148459490a7acd34d1e1d624ba3b9c6f0b0779ebd",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       },
       {
         "scope": "full",
-        "id": "fead758e-2f3a-4c21-b2b6-66c54988fd7f-2",
-        "image": "/home/user/MOTION-/videos/galzin-prix-garantis/.hyperframes/artifacts/snapshots/ebad076a-16d0-4518-9204-39884b775ccf/frame-02-at-5.8s.png",
-        "time": 5.8,
+        "id": "e128b9d3-9d43-4543-809a-426f5512e337-2",
+        "image": "/tmp/claude-0/-home-user-MOTION-COP/c72bc6ee-4cda-521e-a53d-ad2b5360bb44/scratchpad/snap/prix-garantis/frame-02-at-14s.png",
+        "time": 14,
         "metadata": {
           "width": 1920,
           "height": 1080,
@@ -480,70 +292,10 @@
           "warnings": [],
           "partial": false
         },
-        "createdAt": 1792589873167,
-        "contentHash": "5cce06ed3eba52b330b9e02171e3a3e0ec4a2dad582d9d28875dff8c7b9eb674",
+        "createdAt": 1794829152156,
+        "contentHash": "80c5a7bf17e34fc21104d56ceb82d8db2c46aac06981462f81b311bcdf24f3b0",
         "revision": null,
-        "inputFingerprint": "06f9a7b958ad96a9bd25adce015ebb74faddf3c602ec4da340b9859ec4e4b50c",
-        "inputScope": "local-project-files",
-        "attribution": "unversioned"
-      },
-      {
-        "scope": "full",
-        "id": "fead758e-2f3a-4c21-b2b6-66c54988fd7f-3",
-        "image": "/home/user/MOTION-/videos/galzin-prix-garantis/.hyperframes/artifacts/snapshots/ebad076a-16d0-4518-9204-39884b775ccf/frame-03-at-7.8s.png",
-        "time": 7.8,
-        "metadata": {
-          "width": 1920,
-          "height": 1080,
-          "zoomScale": 1,
-          "browserGpuMode": "auto",
-          "warnings": [],
-          "partial": false
-        },
-        "createdAt": 1792589873167,
-        "contentHash": "9fb47c2f2627627c2002470e5b32e992b042c2ee65733888027f127ef3c1cfeb",
-        "revision": null,
-        "inputFingerprint": "06f9a7b958ad96a9bd25adce015ebb74faddf3c602ec4da340b9859ec4e4b50c",
-        "inputScope": "local-project-files",
-        "attribution": "unversioned"
-      },
-      {
-        "scope": "full",
-        "id": "fead758e-2f3a-4c21-b2b6-66c54988fd7f-4",
-        "image": "/home/user/MOTION-/videos/galzin-prix-garantis/.hyperframes/artifacts/snapshots/ebad076a-16d0-4518-9204-39884b775ccf/frame-04-at-10.8s.png",
-        "time": 10.8,
-        "metadata": {
-          "width": 1920,
-          "height": 1080,
-          "zoomScale": 1,
-          "browserGpuMode": "auto",
-          "warnings": [],
-          "partial": false
-        },
-        "createdAt": 1792589873167,
-        "contentHash": "5db2ef7d9f0a7128ab6dba13146ee12e1fb3ad71c5cba6a428bed2105706d75c",
-        "revision": null,
-        "inputFingerprint": "06f9a7b958ad96a9bd25adce015ebb74faddf3c602ec4da340b9859ec4e4b50c",
-        "inputScope": "local-project-files",
-        "attribution": "unversioned"
-      },
-      {
-        "scope": "full",
-        "id": "fead758e-2f3a-4c21-b2b6-66c54988fd7f-5",
-        "image": "/home/user/MOTION-/videos/galzin-prix-garantis/.hyperframes/artifacts/snapshots/ebad076a-16d0-4518-9204-39884b775ccf/frame-05-at-14.6s.png",
-        "time": 14.6,
-        "metadata": {
-          "width": 1920,
-          "height": 1080,
-          "zoomScale": 1,
-          "browserGpuMode": "auto",
-          "warnings": [],
-          "partial": false
-        },
-        "createdAt": 1792589873167,
-        "contentHash": "8b57b34ca470056e1436ff36c5ecf9c35972ad7e48feaaeaeec617bf2eac118b",
-        "revision": null,
-        "inputFingerprint": "06f9a7b958ad96a9bd25adce015ebb74faddf3c602ec4da340b9859ec4e4b50c",
+        "inputFingerprint": "bed6eda681814d006fb7c2e148459490a7acd34d1e1d624ba3b9c6f0b0779ebd",
         "inputScope": "local-project-files",
         "attribution": "unversioned"
       }
