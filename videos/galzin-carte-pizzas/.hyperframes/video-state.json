@@ -87,7 +87,10 @@
   },
   "revisions": {},
   "checks": {
-    "latest": null,
+    "latest": {
+      "revision": "e1581b8d-5ff1-4fca-9eaf-3d2d9c88d15f",
+      "id": "70863f35-1c02-439d-a3ef-701ca965cc54"
+    },
     "revisions": {
       "e1581b8d-5ff1-4fca-9eaf-3d2d9c88d15f": [
         {
@@ -442,11 +445,11 @@
   },
   "renders": {
     "latest": {
-      "id": "12f61c7b-eb86-4dce-8517-1ee96e28f29d",
-      "completedAt": 1792657378983,
-      "output": "/home/user/MOTION-/videos/galzin-carte-pizzas/renders/galzin-carte-pizzas.mp4",
+      "id": "3e49535c-9cf5-429c-a950-e15b32063380",
+      "completedAt": 1794827756792,
+      "output": "/home/user/MOTION-COP/videos/galzin-carte-pizzas/renders/galzin-carte-pizzas.mp4",
       "status": "completed",
-      "revision": "5ed5e712-8751-469a-a0ba-298502e03294"
+      "revision": null
     },
     "retainedRevisions": [
       "5ed5e712-8751-469a-a0ba-298502e03294",

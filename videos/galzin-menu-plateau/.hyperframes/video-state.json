@@ -79,7 +79,10 @@
   },
   "revisions": {},
   "checks": {
-    "latest": null,
+    "latest": {
+      "revision": "7a548871-b672-4f22-8c0b-b7940b2aa072",
+      "id": "309c224e-6662-4fc3-adbc-dc47fd9d9795"
+    },
     "revisions": {
       "7a548871-b672-4f22-8c0b-b7940b2aa072": [
         {
@@ -312,11 +315,11 @@
   },
   "renders": {
     "latest": {
-      "id": "f974a06c-acc1-4e3b-8414-a14e871e09e8",
-      "completedAt": 1792506956630,
-      "output": "/home/user/MOTION-/videos/galzin-menu-plateau/renders/galzin-menu-plateau.mp4",
+      "id": "85726674-5f55-4a96-9495-8c6882559586",
+      "completedAt": 1794827384377,
+      "output": "/home/user/MOTION-COP/videos/galzin-menu-plateau/renders/galzin-menu-plateau.mp4",
       "status": "completed",
-      "revision": "7a548871-b672-4f22-8c0b-b7940b2aa072"
+      "revision": null
     },
     "retainedRevisions": [
       "7a548871-b672-4f22-8c0b-b7940b2aa072"

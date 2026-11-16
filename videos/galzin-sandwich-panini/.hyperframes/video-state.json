@@ -83,7 +83,10 @@
     }
   },
   "checks": {
-    "latest": null,
+    "latest": {
+      "revision": "0960c497-e077-43b1-b43f-52f280cb6365",
+      "id": "c9c822a7-7e83-456e-8fa7-75c16c0246fc"
+    },
     "revisions": {
       "28e940e7-5b51-4d00-9e06-d58a6cd3e75a": [
         {
@@ -368,15 +371,15 @@
   },
   "renders": {
     "latest": {
-      "id": "f884fe9a-a108-487a-b208-3e33906e3ba0",
-      "completedAt": 1792591855444,
-      "output": "/home/user/MOTION-/videos/galzin-sandwich-panini/renders/galzin-sandwich-panini.mp4",
+      "id": "9aaa91b6-6cd1-4144-99cd-df9da515073a",
+      "completedAt": 1794827204653,
+      "output": "/home/user/MOTION-COP/videos/galzin-sandwich-panini/renders/galzin-sandwich-panini.mp4",
       "status": "completed",
-      "revision": "0960c497-e077-43b1-b43f-52f280cb6365"
+      "revision": "f1901359-05d8-49f2-9fbb-f6ed24c391b3"
     },
     "retainedRevisions": [
-      "0960c497-e077-43b1-b43f-52f280cb6365",
-      "28e940e7-5b51-4d00-9e06-d58a6cd3e75a"
+      "f1901359-05d8-49f2-9fbb-f6ed24c391b3",
+      "0960c497-e077-43b1-b43f-52f280cb6365"
     ]
   },
   "pendingArtifactCleanup": []

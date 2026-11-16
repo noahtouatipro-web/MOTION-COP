@@ -63,7 +63,10 @@
   },
   "revisions": {},
   "checks": {
-    "latest": null,
+    "latest": {
+      "revision": "484efe43-1a63-44aa-ab61-89b520f63ca2",
+      "id": "9dc7a71d-dddb-4674-a306-f7ade055cc6d"
+    },
     "revisions": {
       "484efe43-1a63-44aa-ab61-89b520f63ca2": [
         {
@@ -298,11 +301,11 @@
   },
   "renders": {
     "latest": {
-      "id": "184a707b-27f1-4b34-88b3-0d91f419ad4d",
-      "completedAt": 1792504054081,
-      "output": "/home/user/MOTION-/videos/galzin-pizza/renders/galzin-pizza-brun.mp4",
+      "id": "025b7174-b9a5-4683-ad75-e032ed0b76db",
+      "completedAt": 1794827806121,
+      "output": "/home/user/MOTION-COP/videos/galzin-pizza/renders/galzin-pizza-rouge.mp4",
       "status": "completed",
-      "revision": "216c8378-ab53-4f08-bb6d-51a3a8e57787"
+      "revision": null
     },
     "retainedRevisions": [
       "216c8378-ab53-4f08-bb6d-51a3a8e57787",

@@ -59,7 +59,10 @@
   },
   "revisions": {},
   "checks": {
-    "latest": null,
+    "latest": {
+      "revision": "60eb19df-0aad-443a-b207-fa0fe470c497",
+      "id": "1ee34184-c14f-4b9b-b0ba-2fc1249d201f"
+    },
     "revisions": {
       "60eb19df-0aad-443a-b207-fa0fe470c497": [
         {
@@ -294,11 +297,11 @@
   },
   "renders": {
     "latest": {
-      "id": "ee78a33f-b1eb-463d-a6f0-c51abe35bed5",
-      "completedAt": 1792586162030,
-      "output": "/home/user/MOTION-/videos/galzin-baguette/renders/galzin-baguette.mp4",
+      "id": "9e5799a4-6642-44f9-8478-146c51d983e8",
+      "completedAt": 1794827549027,
+      "output": "/home/user/MOTION-COP/videos/galzin-baguette/renders/galzin-baguette.mp4",
       "status": "completed",
-      "revision": "60eb19df-0aad-443a-b207-fa0fe470c497"
+      "revision": null
     },
     "retainedRevisions": [
       "60eb19df-0aad-443a-b207-fa0fe470c497"

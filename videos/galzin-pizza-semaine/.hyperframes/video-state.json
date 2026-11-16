@@ -71,7 +71,10 @@
   },
   "revisions": {},
   "checks": {
-    "latest": null,
+    "latest": {
+      "revision": "ce9084b5-65e5-41e3-ba80-dec32c66cfe8",
+      "id": "0742de7e-4f1d-4adf-90d2-38cc913b5e60"
+    },
     "revisions": {
       "ce9084b5-65e5-41e3-ba80-dec32c66cfe8": [
         {
@@ -306,11 +309,11 @@
   },
   "renders": {
     "latest": {
-      "id": "35f01984-f574-4260-b166-ac360ce2c7da",
-      "completedAt": 1792657416021,
-      "output": "/home/user/MOTION-/videos/galzin-pizza-semaine/renders/galzin-pizza-semaine.mp4",
+      "id": "8f726ea7-60fd-4a64-a5ed-a0e7aac89a69",
+      "completedAt": 1794827668817,
+      "output": "/home/user/MOTION-COP/videos/galzin-pizza-semaine/renders/galzin-pizza-semaine.mp4",
       "status": "completed",
-      "revision": "09dff9ba-6111-4258-b116-77ccc9809b20"
+      "revision": null
     },
     "retainedRevisions": [
       "09dff9ba-6111-4258-b116-77ccc9809b20",

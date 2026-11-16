@@ -103,7 +103,10 @@
     }
   },
   "checks": {
-    "latest": null,
+    "latest": {
+      "revision": "fc10085f-46b4-4ec3-b5da-244745342367",
+      "id": "18e6109f-f059-4bcc-967c-53ee051de87f"
+    },
     "revisions": {
       "fc10085f-46b4-4ec3-b5da-244745342367": [
         {
@@ -359,15 +362,15 @@
   },
   "renders": {
     "latest": {
-      "id": "40c0aa8e-a2ef-487d-8dab-457b318b8c2a",
-      "completedAt": 1792677607941,
-      "output": "/home/user/MOTION-/videos/galzin-prix-garantis/renders/galzin-prix-garantis.mp4",
+      "id": "6eb99556-6474-4913-b1f2-c03f4749ad43",
+      "completedAt": 1794827466121,
+      "output": "/home/user/MOTION-COP/videos/galzin-prix-garantis/renders/galzin-prix-garantis.mp4",
       "status": "completed",
-      "revision": "172afa8b-fc0e-45ab-a881-6a7ccd31e80b"
+      "revision": "89a30b04-39f6-438d-afaa-bdb6ca66b058"
     },
     "retainedRevisions": [
-      "172afa8b-fc0e-45ab-a881-6a7ccd31e80b",
-      "fc10085f-46b4-4ec3-b5da-244745342367"
+      "89a30b04-39f6-438d-afaa-bdb6ca66b058",
+      "172afa8b-fc0e-45ab-a881-6a7ccd31e80b"
     ]
   },
   "pendingArtifactCleanup": []

@@ -55,7 +55,10 @@
   },
   "revisions": {},
   "checks": {
-    "latest": null,
+    "latest": {
+      "revision": "47078654-98cc-4d39-be07-322b96c4d043",
+      "id": "0b9c90f8-2454-498c-a907-6cb30d56d0b2"
+    },
     "revisions": {
       "851f2e49-0c13-44f8-9e9a-cf5a26892bf7": [
         {
@@ -317,11 +320,11 @@
   },
   "renders": {
     "latest": {
-      "id": "65cbdf2d-399c-441b-a3bf-6b24a7b5885a",
-      "completedAt": 1792572962892,
-      "output": "/home/user/MOTION-/videos/galzin-americain/renders/galzin-americain.mp4",
+      "id": "23d57418-9c3e-41a6-a3ad-5926057f5fa4",
+      "completedAt": 1794827251154,
+      "output": "/home/user/MOTION-COP/videos/galzin-americain/renders/galzin-americain.mp4",
       "status": "completed",
-      "revision": "47078654-98cc-4d39-be07-322b96c4d043"
+      "revision": null
     },
     "retainedRevisions": [
       "47078654-98cc-4d39-be07-322b96c4d043",

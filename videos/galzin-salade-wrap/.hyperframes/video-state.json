@@ -71,7 +71,10 @@
   },
   "revisions": {},
   "checks": {
-    "latest": null,
+    "latest": {
+      "revision": "6b269b31-b691-4d70-857a-8b47476db08b",
+      "id": "fd3529f9-f2d9-4256-995a-7a7263389bd8"
+    },
     "revisions": {
       "6b269b31-b691-4d70-857a-8b47476db08b": [
         {
@@ -306,11 +309,11 @@
   },
   "renders": {
     "latest": {
-      "id": "5a901b6f-f6d9-41ec-913d-fdbadf5613aa",
-      "completedAt": 1792593220489,
-      "output": "/home/user/MOTION-/videos/galzin-salade-wrap/renders/galzin-salade-wrap.mp4",
+      "id": "0efa6210-05c4-4c4a-9b3c-5d01f93b231c",
+      "completedAt": 1794827162756,
+      "output": "/home/user/MOTION-COP/videos/galzin-salade-wrap/renders/galzin-salade-wrap.mp4",
       "status": "completed",
-      "revision": "6b269b31-b691-4d70-857a-8b47476db08b"
+      "revision": null
     },
     "retainedRevisions": [
       "6b269b31-b691-4d70-857a-8b47476db08b"
