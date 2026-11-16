@@ -1,7 +1,7 @@
 """Affiche A3 « La formule du matin » (charte Galzin, voir ../_kit-galzin/CHARTE.md).
 
 Usage : python3 build.py  ->  galzin-formule-matin-A3.svg (à ouvrir dans Illustrator).
-Formule 3,80€ : boisson chaude + pain + beurre + confiture. +1€ : croissant ou pain au chocolat (4,80€).
+Formule 3,80€ : boisson chaude + pain + beurre + confiture. +1,10€ : croissant ou chocolatine (4,90€).
 Unités : 1 unité = 0,1 mm (A3 = 2970 x 4200).
 """
 import base64
@@ -107,18 +107,18 @@ def affiche():
         + '<g id="VIENNOISERIES">' + image("croissant", 1720, 3380, 560, 430, 900, rot=-8)
         + image("chocolatine", 1930, 3560, 450, 320, 900, rot=6) + '</g>'
         + f'<g id="PLUS_1"><circle cx="320" cy="3600" r="190" fill="url(#OrangeRouge)" stroke="{C["creme"]}" '
-          f'stroke-width="14"/>' + text(320, 3670, "+1€", 175, C["creme"]) + '</g>'
+          f'stroke-width="14"/>' + text(320, 3655, "+1,10€", 120, C["creme"]) + '</g>'
         + text(560, 3540, "Avec un croissant", 118, C["creme"], HEROICA, "start", italic=True, bold=True)
-        + text(560, 3665, "ou un pain au chocolat", 118, C["creme"], HEROICA, "start", italic=True, bold=True)
+        + text(560, 3665, "ou une chocolatine", 118, C["creme"], HEROICA, "start", italic=True, bold=True)
         + text(560, 3770, "+ LE BEURRE ET LA CONFITURE", 78, C["cuivre_clair"], anchor="start")
-        + ligne_compo(["1 BOISSON CHAUDE", "PAIN", "BEURRE", "CONFITURE", "CROISSANT OU PAIN AU CHOCOLAT"],
+        + ligne_compo(["1 BOISSON CHAUDE", "PAIN", "BEURRE", "CONFITURE", "CROISSANT OU CHOCOLATINE"],
                       3950, 58, C["creme"])
         + '</g>')
     L.append(
         '<g id="PRIX">'
         + ovale_prix(2480, 930, 360, 220, "3,80€", "cuivre", rot=-8)
         + pastille(2640, 3480, 600, 130, C["caramel"], "FORMULE AVEC VIENNOISERIE", 52, C["chocolat_fonce"])
-        + ovale_prix(2650, 3720, 260, 150, "4,80€", "cuivre", size=170, rot=-5)
+        + ovale_prix(2650, 3720, 260, 150, "4,90€", "cuivre", size=170, rot=-5)
         + '</g>')
     L.append(
         '<g id="LOGO_MENTIONS">'

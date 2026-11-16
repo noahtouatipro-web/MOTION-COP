@@ -18,10 +18,10 @@ K = W / 1024               # échelle grille d'origine -> 0,1 mm
 CH = C["chocolat"]
 
 BOISSONS = [  # None = espace entre deux familles
-    ("Café", "1,60€"), ("Déca", "1,60€"), ("Café double", "2,50€"), ("Déca double", "2,50€"),
-    ("Café crème", "2,80€"), ("Cappuccino", "2,80€"), None,
-    ("Petit chocolat chaud", "2,30€"), ("Grand chocolat chaud", "2,80€"), None,
-    ("Thés et infusions", "2,80€"),
+    ("Café", "1,65€"), ("Déca", "1,65€"), ("Café double", "2,55€"), ("Déca double", "2,55€"),
+    ("Café crème", "2,85€"), ("Cappuccino", "2,85€"), None,
+    ("Petit chocolat chaud", "2,35€"), ("Grand chocolat chaud", "2,85€"), None,
+    ("Thés et infusions", "2,90€"),
 ]
 
 

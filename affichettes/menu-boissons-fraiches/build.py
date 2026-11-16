@@ -17,16 +17,16 @@ K = W / 1024               # échelle grille d'origine -> 0,1 mm
 CH = C["chocolat"]
 
 BOISSONS = [
-    ("Fuzetea 33 cl", "2.20€"), ("Fuzetea 40 cl", "2.80€"), ("Coca Cola 33 cl", "2.20€"),
-    ("Coca Cola 50 cl", "2.80€"), ("Coca Zéro 33 cl", "2.20€"), ("Coca Zéro 50 cl", "2.80€"),
-    ("Coca Cherry 33 cl", "2.20€"), ("Coca Cherry 50 cl", "2.80€"), ("Coca Cola 1.25 l", "4.10€"),
-    ("Fanta 33 cl", "2.20€"), ("Fanta dragon 33 cl", "2.20€"), ("Fanta 50 cl", "2.80€"),
-    ("Tropico mini", "1.70€"), ("Tropico 33cl", "2.20€"), ("Tropico 40cl", "2.80€"),
-    ("Sprite 33 cl", "2.20€"), ("Sprite 50 cl", "2.80€"), ("Monster mangue 50 cl", "3.20€"),
-    ("Redbull 25 cl", "3.20€"), ("Maid orange 33 cl", "2.20€"), ("Maid pomme 33 cl", "2.20€"),
-    ("Heineken 33 cl", "2.80€"), ("Desperados 33 cl", "3.80€"), ("Bière artisanale", "3.80€"),
-    ("Volvic fraise ou citron 50 cl", "2.80€"), ("San Pellegrino / Perrier 50 cl", "2.50€"),
-    ("Eau 50 cl", "1.50€"), ("Eau 1.5 l", "2.50€"), ("Limonade 27,5 cl", "2.80€"),
+    ("Fuzetea 33 cl", "2.25€"), ("Fuzetea 40 cl", "2.85€"), ("Coca Cola 33 cl", "2.25€"),
+    ("Coca Cola 50 cl", "2.85€"), ("Coca Zéro 33 cl", "2.25€"), ("Coca Zéro 50 cl", "2.85€"),
+    ("Coca Cherry 33 cl", "2.25€"), ("Coca Cherry 50 cl", "2.85€"), ("Coca Cola 1.25 l", "4.15€"),
+    ("Fanta 33 cl", "2.25€"), ("Fanta dragon 33 cl", "2.25€"), ("Fanta 50 cl", "2.85€"),
+    ("Tropico mini", "1.75€"), ("Tropico 33cl", "2.25€"), ("Tropico 40cl", "2.85€"),
+    ("Sprite 33 cl", "2.25€"), ("Sprite 50 cl", "2.85€"), ("Monster mangue 50 cl", "3.25€"),
+    ("Redbull 25 cl", "3.25€"), ("Maid orange 33 cl", "2.25€"), ("Maid pomme 33 cl", "2.25€"),
+    ("Heineken 33 cl", "2.90€"), ("Desperados 33 cl", "3.90€"), ("Bière artisanale", "3.90€"),
+    ("Volvic fraise ou citron 50 cl", "2.85€"), ("San Pellegrino 50 cl", "2.55€"), ("Perrier 50 cl", "2.85€"),
+    ("Eau 50 cl", "1.85€"), ("Eau 1.5 l", "2.95€"), ("Limonade 27,5 cl", "2.85€"),
 ]
 
 
@@ -52,7 +52,8 @@ def cadre():
 
 def carte():
     o = []
-    y, pas = 445, 34.3
+    # 29 lignes à 34,3 d'origine : on garde la même hauteur de liste si on en ajoute
+    y, pas = 445, min(34.3, 34.3 * 28 / (len(BOISSONS) - 1))
     x_nom, x_prix, size = 386, 940, 23
     for nom, prix in BOISSONS:
         fin_nom = x_nom + len(nom) * size * 0.42

@@ -67,6 +67,10 @@ par le client dans `.claude/skills/galzin-da/SKILL.md`.
 - **Photos produits** : vraies photos Galzin détourées proprement (PNG transparents). Soigner les
   détourages (pas d'assiette ni de croûte coupée) — l'utilisateur y est attentif.
 - Prix au format français : `5,50 €`.
+- **Tarifs 2026** (grille boutique appliquée en novembre 2026) : tous les visuels à prix ont été mis à jour.
+  Choix validés : baguette par 2 à 0,95 € pièce (seule : 1 €), formule tartine 3,80 € + 1,10 € avec viennoiserie (4,90 €),
+  3+1 viennoiseries affichées au prix du lot (3,65 € / 4,25 €), pizza Tartiflette laissée à 12 € sur la carte,
+  `galzin-plus` (accompagnement 2,90 €) et galettes Minions non modifiés.
 
 ## Formats
 
@@ -97,7 +101,7 @@ Les pubs TV doivent pouvoir **tourner en boucle** : vraie end card + fondu de so
 
 - **Pubs TV 15 s** : `galzin-3plus1` (croissant/chocolatine), `galzin-americain`, `galzin-baguette`
   (par 2), `galzin-tielles` (lot 3+1), `galzin-pizza` (variantes rouge/marron), `galzin-pizza-semaine`,
-  `galzin-menu` / `galzin-menu-plateau` / `galzin-menu-affiche` (« Compose ton menu » 5,50 €),
+  `galzin-menu` / `galzin-menu-plateau` / `galzin-menu-affiche` (« Compose ton menu » 5,90 €),
   `galzin-plus` / `galzin-plus-sandwich` (offre plus), `galzin-prix-garantis`, `galzin-sandwich-panini`,
   `galzin-salade-wrap`, `galzin-fidelite`, `galzin-happy-hour`, `galzin-petit-dej` (tartine).
 - **Cartes TV** : `galzin-carte-pizzas` (30 s), `galzin-carte-sandwichs` (22 s).
@@ -109,7 +113,7 @@ Les pubs TV doivent pouvoir **tourner en boucle** : vraie end card + fondu de so
 - **PLV / print** (`affichettes/`) : petit-déj A5, formule matin A3, pizza de la semaine A3, menus
   boissons chaudes/fraîches, stop-trottoir, stickers (Wi-Fi, allergènes, table), flyer recrutement,
   panneaux (paiement, WC, toilettes hors service, vidéosurveillance, poubelle Balaruc), étiquettes
-  internes (envoi Millau, four Unox). `print/lot-2-pains-speciaux` : étiquette prix 4€50.
+  internes (envoi Millau, four Unox). `print/lot-2-pains-speciaux` : étiquette prix 4€80.
 
 ## Autres projets (hors Galzin)
 

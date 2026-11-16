@@ -26,9 +26,9 @@ FERMES = [
     ("Jérôme Fontaine", "Le Bousquet-d'Orb (34)", 43.692, 3.165, "d", 0),
 ]
 PRODUITS = [  # (photo, nom ligne 1, nom ligne 2, prix) — liste de prix, pas de photo requise
-    (None, "Pavé des Causses", "tranché", "2,90€"),
-    ("pain-levain", "Demi-boule", "campagne tranchée", "3,00€"),
-    ("pain-graines", "Demi-boule", "campagne graines tranchée", "3,10€"),
+    (None, "Pavé des Causses", "tranché", "3,20€"),
+    ("pain-levain", "Demi-boule", "campagne tranchée", "3,20€"),
+    ("pain-graines", "Demi-boule", "campagne graines tranchée", "3,30€"),
 ]
 
 

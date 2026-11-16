@@ -98,7 +98,7 @@ def affiche():
         + f'<g transform="rotate(-6 2250 2740)"><rect x="1910" y="2650" width="680" height="180" rx="50" '
           f'fill="{C["chocolat"]}"/></g>'
         + text(2250, 2780, "seulement", 125, C["creme"], HEROICA, italic=True, bold=True, rot=-6)
-        + ovale_prix(2250, 3090, 520, 280, "8,90€", "cuivre", rot=-6)
+        + ovale_prix(2250, 3090, 520, 280, "9,90€", "cuivre", rot=-6)
         + '</g>')
     L.append(
         '<g id="LOGO_MENTIONS">'

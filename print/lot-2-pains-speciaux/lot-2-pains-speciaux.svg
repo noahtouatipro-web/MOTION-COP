@@ -20,13 +20,13 @@
   <g id="Prix">
     <text x="318" y="645" text-anchor="end" font-family="Impact" font-size="280" fill="#2a1d12">4</text>
     <text x="325" y="530" font-family="Impact" font-size="122" fill="#b3261e">€</text>
-    <text x="400" y="645" font-family="Impact" font-size="280" fill="#2a1d12">50</text>
+    <text x="400" y="645" font-family="Impact" font-size="280" fill="#2a1d12">80</text>
   </g>
   <g id="Pastille_prix_unitaire" transform="rotate(-12 845 520)">
     <circle cx="845" cy="520" r="105" fill="#b3261e"/>
     <circle cx="845" cy="520" r="93" fill="none" stroke="#ffcc4d" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
     <text x="845" y="482" text-anchor="middle" font-family="Eroika Slab" font-weight="700" font-size="34" fill="#fdf0e3">soit</text>
-    <text x="845" y="552" text-anchor="middle" font-family="Impact" font-size="70" fill="#ffcc4d">2,25€</text>
+    <text x="845" y="552" text-anchor="middle" font-family="Impact" font-size="70" fill="#ffcc4d">2,40€</text>
     <text x="845" y="592" text-anchor="middle" font-family="Eroika Slab" font-weight="700" font-size="32" fill="#fdf0e3">la pièce</text>
   </g>
 </svg>
