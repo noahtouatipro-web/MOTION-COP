@@ -1,0 +1,630 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 9,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 5.119,
+        "selector": "#p2txt1",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 170.48,
+          "top": 705.97,
+          "right": 216,
+          "bottom": 823.97,
+          "width": 45.52,
+          "height": 118
+        },
+        "containerSelector": "#p2txt2",
+        "text": "Intérieur",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 170.48,
+          "y": 705.97,
+          "width": 45.52,
+          "height": 118
+        },
+        "firstSeen": 5.119,
+        "lastSeen": 5.493,
+        "occurrences": 4,
+        "heldMs": 374.00000000000057,
+        "times": [
+          5.119,
+          5.244,
+          5.369,
+          5.493
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 5.119,
+        "selector": "#p2txt2",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 194.85,
+          "top": 663.1,
+          "right": 269.39,
+          "bottom": 862.02,
+          "width": 74.54,
+          "height": 198.92
+        },
+        "containerSelector": "#p2txt3",
+        "text": "FRANGIPANE",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 194.85,
+          "y": 663.1,
+          "width": 74.54,
+          "height": 198.92
+        },
+        "firstSeen": 5.119,
+        "lastSeen": 5.244,
+        "occurrences": 2,
+        "heldMs": 125,
+        "times": [
+          5.119,
+          5.244
+        ]
+      },
+      {
+        "code": "rotation_pivot_drift",
+        "severity": "warning",
+        "time": 13.442,
+        "selector": "#crown",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 312.78999999999996,
+          "y": 668.5,
+          "width": 503.72,
+          "height": 367.44
+        },
+        "rect": {
+          "left": 312.78999999999996,
+          "top": 668.5,
+          "right": 816.51,
+          "bottom": 1035.94,
+          "width": 503.72,
+          "height": 367.44
+        },
+        "message": "Rotating element's bounding-box center drifts 1046px across rotation — it is not spinning about its own center (check transformOrigin/svgOrigin).",
+        "fixHint": "The bounding-box center should stay fixed while the element spins; check its transformOrigin/svgOrigin so rotation pivots about the element's own center rather than a point in a coordinate space it was resized out of.",
+        "firstSeen": 13.442,
+        "lastSeen": 13.442,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.442
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 0.791,
+        "selector": "#p1title",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 217.56,
+          "top": -584,
+          "right": 862.44,
+          "bottom": -359,
+          "width": 644.88,
+          "height": 225
+        },
+        "containerSelector": "#root",
+        "text": "LA GALETTE",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 584
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 217.56,
+          "y": -584,
+          "width": 644.88,
+          "height": 225
+        },
+        "firstSeen": 0.791,
+        "lastSeen": 3.954,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          0.791,
+          2.372,
+          3.954
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 0.791,
+        "selector": "#p1sub > span:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 318.09,
+          "top": -383.5,
+          "right": 761.91,
+          "bottom": -272.5,
+          "width": 443.82,
+          "height": 111
+        },
+        "containerSelector": "#root",
+        "text": "individuelle",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 383.5
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 318.09,
+          "y": -383.5,
+          "width": 443.82,
+          "height": 111
+        },
+        "firstSeen": 0.791,
+        "lastSeen": 2.372,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          0.791,
+          2.372
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 3.954,
+        "selector": "#introText",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 267.59,
+          "top": 1982.5,
+          "right": 812.41,
+          "bottom": 2087.5,
+          "width": 544.82,
+          "height": 105
+        },
+        "containerSelector": "#root",
+        "text": "C'EST L'ÉPIPHANIE !",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "bottom": 167.5
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 267.59,
+          "y": 1982.5,
+          "width": 544.82,
+          "height": 105
+        },
+        "firstSeen": 3.954,
+        "lastSeen": 13.442,
+        "occurrences": 7,
+        "heldMs": 0,
+        "times": [
+          3.954,
+          5.535,
+          7.117,
+          8.698,
+          10.279,
+          11.861,
+          13.442
+        ]
+      },
+      {
+        "code": "text_box_overflow",
+        "severity": "info",
+        "time": 3.954,
+        "selector": "#p1title",
+        "message": "Text extends outside its nearest visual/container box.",
+        "rect": {
+          "left": 217.56,
+          "top": -126.03,
+          "right": 862.44,
+          "bottom": 6.97,
+          "width": 644.88,
+          "height": 133
+        },
+        "containerSelector": "#root",
+        "text": "LA GALETTE",
+        "fixHint": "Text is 645px x 133px inside 1080px x 1920px and overflows by up to 126px; increase the container height to at least ~2046px, or allow wrapping with max-width/fitTextFontSize.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 126.03
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 217.56,
+          "y": -126.03,
+          "width": 644.88,
+          "height": 133
+        },
+        "firstSeen": 3.954,
+        "lastSeen": 3.954,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          3.954
+        ]
+      },
+      {
+        "code": "panel_out_of_canvas",
+        "severity": "info",
+        "time": 5.535,
+        "selector": "#cord",
+        "message": "Painted panel extends outside the composition canvas.",
+        "rect": {
+          "left": 530.89,
+          "top": -120.14,
+          "right": 551.7,
+          "bottom": 140.11,
+          "width": 20.81,
+          "height": 260.25
+        },
+        "containerSelector": "#root",
+        "text": "",
+        "fixHint": "Move the panel inward, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 120.14
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 530.89,
+          "y": -120.14,
+          "width": 20.81,
+          "height": 260.25
+        },
+        "firstSeen": 5.535,
+        "lastSeen": 8.698,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          5.535,
+          7.117,
+          8.698
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 7.117,
+        "selector": "#shine",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -130.3,
+          "top": 1628,
+          "right": 50.3,
+          "bottom": 1778,
+          "width": 180.6,
+          "height": 150
+        },
+        "containerSelector": "#shineClip",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 100,
+          "top": 1648,
+          "right": 980,
+          "bottom": 1756,
+          "width": 880,
+          "height": 108
+        },
+        "overflow": {
+          "left": 230.3,
+          "top": 20,
+          "bottom": 22
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -130.3,
+          "y": 1628,
+          "width": 180.6,
+          "height": 150
+        },
+        "firstSeen": 7.117,
+        "lastSeen": 8.698,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          7.117,
+          8.698
+        ]
+      },
+      {
+        "code": "panel_out_of_canvas",
+        "severity": "info",
+        "time": 7.117,
+        "selector": "#shine",
+        "message": "Painted panel extends outside the composition canvas.",
+        "rect": {
+          "left": -130.3,
+          "top": 1628,
+          "right": 50.3,
+          "bottom": 1778,
+          "width": 180.6,
+          "height": 150
+        },
+        "containerSelector": "#root",
+        "text": "",
+        "fixHint": "Move the panel inward, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 130.3
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -130.3,
+          "y": 1628,
+          "width": 180.6,
+          "height": 150
+        },
+        "firstSeen": 7.117,
+        "lastSeen": 8.698,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          7.117,
+          8.698
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 10.279,
+        "selector": "#crown > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 448.93,
+          "top": -225.95,
+          "right": 639.55,
+          "bottom": -40.06,
+          "width": 190.62,
+          "height": 185.89
+        },
+        "containerSelector": "#root",
+        "text": "GALZIN",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 225.95
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 448.93,
+          "y": -225.95,
+          "width": 190.62,
+          "height": 185.89
+        },
+        "firstSeen": 10.279,
+        "lastSeen": 10.279,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          10.279
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 10.487,
+        "selector": "#endSub > span:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 274.06,
+          "top": 220.5,
+          "right": 805.92,
+          "bottom": 311.5,
+          "width": 531.86,
+          "height": 91
+        },
+        "containerSelector": "#crown > text:nth-of-type(1)",
+        "text": "Bonne Épiphanie",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 274.06,
+          "y": 220.5,
+          "width": 531.86,
+          "height": 91
+        },
+        "firstSeen": 10.487,
+        "lastSeen": 10.487,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          10.487
+        ]
+      }
+    ],
+    "duration": 14.233,
+    "samples": [
+      0.791,
+      2.372,
+      3.954,
+      5.535,
+      7.117,
+      8.698,
+      10.279,
+      11.861,
+      13.442
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 12,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0.791,
+      3.954,
+      7.117,
+      10.279,
+      13.442
+    ],
+    "checked": 14,
+    "passed": 14
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "first_frame_empty",
+        "severity": "warning",
+        "message": "Frame 0 shows only the background, and the first frame is the thumbnail on social players: have the title or key image already on screen at 0 s instead of entering from nothing; see references/review.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 114
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "version": 1,
+  "historyId": "a047eb63-c3ee-4c18-a356-c73b0fcf3e7d",
+  "currentRevision": "1b901bd8-4e16-4d29-b8c8-2465f6ca2be6",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/root/.cache/hyperframes/history/a047eb63-c3ee-4c18-a356-c73b0fcf3e7d/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "CLAUDE.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/root/.cache/hyperframes/history/a047eb63-c3ee-4c18-a356-c73b0fcf3e7d/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "assets/fonts/anton-latin-400-normal.woff2": {
+      "hash": "d0fa07ff63dd60cbc0e2f58e29c802dca2a5ae0276c999f59c6111ab7bbaec3b",
+      "content": "/root/.cache/hyperframes/history/a047eb63-c3ee-4c18-a356-c73b0fcf3e7d/blobs/d0/d0fa07ff63dd60cbc0e2f58e29c802dca2a5ae0276c999f59c6111ab7bbaec3b"
+    },
+    "assets/fonts/zilla-slab-latin-700-italic.woff2": {
+      "hash": "81dad87e98f037656238d0e49e98bbe93be520917c71e3871cb232226f98d6cc",
+      "content": "/root/.cache/hyperframes/history/a047eb63-c3ee-4c18-a356-c73b0fcf3e7d/blobs/81/81dad87e98f037656238d0e49e98bbe93be520917c71e3871cb232226f98d6cc"
+    },
+    "assets/fonts/zilla-slab-latin-700-normal.woff2": {
+      "hash": "896b6ebb8cd10aca90bdff88a5a1b648cbc0d50751740bd5a6d012007aef9ebe",
+      "content": "/root/.cache/hyperframes/history/a047eb63-c3ee-4c18-a356-c73b0fcf3e7d/blobs/89/896b6ebb8cd10aca90bdff88a5a1b648cbc0d50751740bd5a6d012007aef9ebe"
+    },
+    "assets/img/galzin-logo.png": {
+      "hash": "15e35cc32022f9016f9402552cd64cd92acb7b09a8ec16b69effc3cac7027b06",
+      "content": "/root/.cache/hyperframes/history/a047eb63-c3ee-4c18-a356-c73b0fcf3e7d/blobs/15/15e35cc32022f9016f9402552cd64cd92acb7b09a8ec16b69effc3cac7027b06"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/a047eb63-c3ee-4c18-a356-c73b0fcf3e7d/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "hyperframes.json": {
+      "hash": "e5da816b77f863aa4798d974bc68d65805329ca4d39ebcf353967c5b47e677a6",
+      "content": "/root/.cache/hyperframes/history/a047eb63-c3ee-4c18-a356-c73b0fcf3e7d/blobs/e5/e5da816b77f863aa4798d974bc68d65805329ca4d39ebcf353967c5b47e677a6"
+    },
+    "index.html": {
+      "hash": "3461424f936ce857be75fae91140490db5c28c93f528459d3a41b13089a29b24",
+      "content": "/root/.cache/hyperframes/history/a047eb63-c3ee-4c18-a356-c73b0fcf3e7d/blobs/34/3461424f936ce857be75fae91140490db5c28c93f528459d3a41b13089a29b24"
+    },
+    "meta.json": {
+      "hash": "3bd89cb8b9bee4c7f6e40debc5c781c42ef36f4d69439de2b0bedaa7ce705e4f",
+      "content": "/root/.cache/hyperframes/history/a047eb63-c3ee-4c18-a356-c73b0fcf3e7d/blobs/3b/3bd89cb8b9bee4c7f6e40debc5c781c42ef36f4d69439de2b0bedaa7ce705e4f"
+    },
+    "package.json": {
+      "hash": "150d658e78ed963a78e6a1d523ef64bf1243318e62c6d83822557224fef58225",
+      "content": "/root/.cache/hyperframes/history/a047eb63-c3ee-4c18-a356-c73b0fcf3e7d/blobs/15/150d658e78ed963a78e6a1d523ef64bf1243318e62c6d83822557224fef58225"
+    }
+  },
+  "revisions": {
+    "1b901bd8-4e16-4d29-b8c8-2465f6ca2be6": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794913597504,
+      "endedAt": 1794913597505,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/a047eb63-c3ee-4c18-a356-c73b0fcf3e7d/blobs/fd/fd59e02c83c0961e9c6b61de340983d0ee9d46e1aab7a812af25bdf250a54389",
+          "after": "/root/.cache/hyperframes/history/a047eb63-c3ee-4c18-a356-c73b0fcf3e7d/blobs/34/3461424f936ce857be75fae91140490db5c28c93f528459d3a41b13089a29b24"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "1b901bd8-4e16-4d29-b8c8-2465f6ca2be6",
+      "id": "90173005-2eb5-456f-b33a-8e9cf4c195e1"
+    },
+    "revisions": {
+      "1b901bd8-4e16-4d29-b8c8-2465f6ca2be6": [
+        {
+          "id": "90173005-2eb5-456f-b33a-8e9cf4c195e1",
+          "scope": "project",
+          "report": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/checks/90173005-2eb5-456f-b33a-8e9cf4c195e1.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1794913600297,
+          "contentHash": "250d4892559e37e0fc0b587a9b762b3991baacce741216d3f1b6cecd9a3247f1",
+          "revision": "1b901bd8-4e16-4d29-b8c8-2465f6ca2be6",
+          "inputFingerprint": "242064adf7b775d3d6c01a7afcd48988eeaf2253974bf48cc4f55687194e4cae",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "f75dea81-0139-4365-9ce3-9b8da1f24773",
+        "scope": "project",
+        "report": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/checks/f75dea81-0139-4365-9ce3-9b8da1f24773.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1794913548317,
+        "contentHash": "14327bba88357f20e596c9175c593e66100e76691ec0fff3a9824dc7964dea32",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "1b901bd8-4e16-4d29-b8c8-2465f6ca2be6",
+      "id": "cecd7cf5-57fa-485d-90d3-02c4fbef5515-3"
+    },
+    "revisions": {
+      "1b901bd8-4e16-4d29-b8c8-2465f6ca2be6": [
+        {
+          "scope": "full",
+          "id": "cecd7cf5-57fa-485d-90d3-02c4fbef5515-0",
+          "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/9892bd65-772f-4918-8c2f-991e37e4e6fc/frame-00-at-5.6s.png",
+          "time": 5.6,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794913603531,
+          "contentHash": "34ebbc4f10da34ac225d5cea19826ecedf200a47f7d8eca32054b3fd069293a1",
+          "revision": "1b901bd8-4e16-4d29-b8c8-2465f6ca2be6",
+          "inputFingerprint": "242064adf7b775d3d6c01a7afcd48988eeaf2253974bf48cc4f55687194e4cae",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "cecd7cf5-57fa-485d-90d3-02c4fbef5515-1",
+          "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/9892bd65-772f-4918-8c2f-991e37e4e6fc/frame-01-at-9.95s.png",
+          "time": 9.95,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794913603531,
+          "contentHash": "51dd65696087749ce356721e3791b801a88cf8551a8786bd318557ecb5329f12",
+          "revision": "1b901bd8-4e16-4d29-b8c8-2465f6ca2be6",
+          "inputFingerprint": "242064adf7b775d3d6c01a7afcd48988eeaf2253974bf48cc4f55687194e4cae",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "cecd7cf5-57fa-485d-90d3-02c4fbef5515-2",
+          "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/9892bd65-772f-4918-8c2f-991e37e4e6fc/frame-02-at-11s.png",
+          "time": 11,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794913603531,
+          "contentHash": "48a0f1e645386230a6cae9256e2568fad79cd868bb3e3f150262050d0e4985a4",
+          "revision": "1b901bd8-4e16-4d29-b8c8-2465f6ca2be6",
+          "inputFingerprint": "242064adf7b775d3d6c01a7afcd48988eeaf2253974bf48cc4f55687194e4cae",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "cecd7cf5-57fa-485d-90d3-02c4fbef5515-3",
+          "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/9892bd65-772f-4918-8c2f-991e37e4e6fc/frame-03-at-13.806s.png",
+          "time": 13.806,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794913603531,
+          "contentHash": "7558cbb1b9b35cd5b152ca9fcdbbeeaa5ce6ccc8aa09652412656b58dd68200d",
+          "revision": "1b901bd8-4e16-4d29-b8c8-2465f6ca2be6",
+          "inputFingerprint": "242064adf7b775d3d6c01a7afcd48988eeaf2253974bf48cc4f55687194e4cae",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "042a3555-b451-4296-98ed-b3ca7f017864-0",
+        "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/c26f6a3b-771b-495a-9d69-6cb61793afc4/frame-00-at-1.2s.png",
+        "time": 1.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794913552696,
+        "contentHash": "ce312be5f5f68e4dcd130ac346829fc761c04c32cf2c7ded44db5520c9380d73",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "042a3555-b451-4296-98ed-b3ca7f017864-1",
+        "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/c26f6a3b-771b-495a-9d69-6cb61793afc4/frame-01-at-2.2s.png",
+        "time": 2.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794913552696,
+        "contentHash": "df9473d1ecb5b7545ee89cf3ca131f80805358a19ebef056be7019d86748af6a",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "042a3555-b451-4296-98ed-b3ca7f017864-2",
+        "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/c26f6a3b-771b-495a-9d69-6cb61793afc4/frame-02-at-4s.png",
+        "time": 4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794913552696,
+        "contentHash": "47ab0d028933be08d605e06ba24af8f9622002df1d770e0352009517efb79db8",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "042a3555-b451-4296-98ed-b3ca7f017864-3",
+        "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/c26f6a3b-771b-495a-9d69-6cb61793afc4/frame-03-at-5.3s.png",
+        "time": 5.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794913552696,
+        "contentHash": "542bb3fb911b26fd6c29dcce620dd3944a3759c1f479555a30f2d72987bf49d9",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "042a3555-b451-4296-98ed-b3ca7f017864-4",
+        "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/c26f6a3b-771b-495a-9d69-6cb61793afc4/frame-04-at-7.6s.png",
+        "time": 7.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794913552696,
+        "contentHash": "74506546eae01e2a88effd9facb90110af7acb66f642de5c9b1963c7a362ea72",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "042a3555-b451-4296-98ed-b3ca7f017864-5",
+        "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/c26f6a3b-771b-495a-9d69-6cb61793afc4/frame-05-at-9s.png",
+        "time": 9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794913552696,
+        "contentHash": "786906423a49902c6313ffd623e44e6633b4845d4609e96ab589005ff2a4dc37",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "042a3555-b451-4296-98ed-b3ca7f017864-6",
+        "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/c26f6a3b-771b-495a-9d69-6cb61793afc4/frame-06-at-9.45s.png",
+        "time": 9.45,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794913552696,
+        "contentHash": "e46bc1c5d3e4bce5b6db3b3c875190d18c87ecb919780898ba9143277940583d",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "042a3555-b451-4296-98ed-b3ca7f017864-7",
+        "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/c26f6a3b-771b-495a-9d69-6cb61793afc4/frame-07-at-9.6s.png",
+        "time": 9.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794913552696,
+        "contentHash": "09ce928f1ccc0b4f524d2b6c7e16f6c5285252576dc594d745a9247d2a1193af",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "042a3555-b451-4296-98ed-b3ca7f017864-8",
+        "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/c26f6a3b-771b-495a-9d69-6cb61793afc4/frame-08-at-9.85s.png",
+        "time": 9.85,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794913552696,
+        "contentHash": "f7c9d43e2ae2b8119b6b7fcc4b9f3de62a6443af43d9af60fe2bca1b6dbbfeef",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "042a3555-b451-4296-98ed-b3ca7f017864-9",
+        "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/c26f6a3b-771b-495a-9d69-6cb61793afc4/frame-09-at-10.4s.png",
+        "time": 10.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794913552696,
+        "contentHash": "3c624ceeed7076c54c9618146b44d9186350c8c145b41d9dc3ef9ff721d3e5c9",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "042a3555-b451-4296-98ed-b3ca7f017864-10",
+        "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/c26f6a3b-771b-495a-9d69-6cb61793afc4/frame-10-at-10.75s.png",
+        "time": 10.75,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794913552696,
+        "contentHash": "bbb95833cfaec33608772f8bc54170f754755e097cef5bc8fd76e3e7af924b57",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "042a3555-b451-4296-98ed-b3ca7f017864-11",
+        "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/c26f6a3b-771b-495a-9d69-6cb61793afc4/frame-11-at-12.4s.png",
+        "time": 12.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794913552696,
+        "contentHash": "e6552347e9986300737e301d1dcb99458e0ad64636f85dc00cdecfa0941ab50a",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "042a3555-b451-4296-98ed-b3ca7f017864-12",
+        "image": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/.hyperframes/artifacts/snapshots/c26f6a3b-771b-495a-9d69-6cb61793afc4/frame-12-at-13.806s.png",
+        "time": 13.806,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794913552696,
+        "contentHash": "4f9c2d3fa113f5b6c6833e867bd7cee8d96a1713c2179ed11f7ef164745fdec8",
+        "revision": null,
+        "inputFingerprint": "00dae4866243266df653840d17eb67e1150e3887524c4e46aae9f93c53618149",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "renders": {
+    "latest": {
+      "id": "8765cf7e-9dac-4d5c-bf62-a46dabe78cc8",
+      "completedAt": 1794913651032,
+      "output": "/home/user/MOTION-COP/videos/galzin-galette-epiphanie/renders/galette-epiphanie-fond-vert.mp4",
+      "status": "completed",
+      "revision": "1b901bd8-4e16-4d29-b8c8-2465f6ca2be6"
+    },
+    "retainedRevisions": [
+      "1b901bd8-4e16-4d29-b8c8-2465f6ca2be6"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
