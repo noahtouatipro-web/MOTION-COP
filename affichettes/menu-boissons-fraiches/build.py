@@ -57,7 +57,8 @@ CARTE = [
 ]
 
 X0, X1 = 360, 994                 # colonne carte
-COLS = [994, 862, 730]            # bord droit des colonnes de prix (de droite à gauche)
+COLS = [994, 842, 690]            # bord droit des colonnes de prix (de droite à gauche)
+FILET = "#E2C49E"                 # filet entre les lignes (caramel clair)
 
 
 def vagues():
@@ -91,11 +92,13 @@ def carte():
             yb = y + 30                                    # ligne de base du nom et des prix
             g = [text(X0, yb, nom, 29, CH, HEROICA, "start", bold=True)]
             for (lab, p), xd in zip(reversed(cases), COLS):
-                g.append(text(xd, yb, prix(p), 29, CH, HEROICA, "end", bold=True))
-                if lab:
-                    g.append(text(xd - 84, yb - 1, lab, 17, CA, IMPACT, "end"))
-            g.append(f'<path d="M{X0} {yb + 11}H{X1}" stroke="{CA}" stroke-width="1.8" '
-                     f'stroke-dasharray="0.1 6" stroke-linecap="round"/>')
+                # contenance + prix dans UN SEUL texte (2 styles) : rien ne se chevauche, quelle que soit la police
+                lab_t = (f'<tspan font-family="{IMPACT}" font-size="21" fill="{CA}">{lab}\u00a0\u00a0</tspan>'
+                         if lab else "")
+                g.append(f'<text x="{xd}" y="{yb}" text-anchor="end">{lab_t}'
+                         f'<tspan font-family="{HEROICA}" font-weight="bold" font-size="28" fill="{CH}">'
+                         f'{prix(p)}</tspan></text>')
+            g.append(f'<path d="M{X0} {yb + 11}H{X1}" stroke="{FILET}" stroke-width="1.6"/>')
             o.append(f'<g id="ligne-{nom.lower().replace(" ", "-")}">' + "".join(g) + '</g>')
             y += 40
         y += 12

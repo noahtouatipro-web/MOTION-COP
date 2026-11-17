@@ -36,8 +36,8 @@ CARTE = [
     ]),
 ]
 
-X0, X1 = 352, 992                 # colonne carte
-COLS = [926, 776]                 # centres des ovales (de droite à gauche)
+X0, X1 = 326, 992                 # colonne carte
+COLS = [924, 782]                 # centres des ovales (de droite à gauche)
 
 
 def vagues():
@@ -62,7 +62,7 @@ def titre():
 
 
 def photo():
-    x, y, w, h = 36, 330, 286, 1020
+    x, y, w, h = 36, 330, 262, 1020
     return ('<defs><clipPath id="ClipPhoto"><rect x="{0}" y="{1}" width="{2}" height="{3}" rx="26"/></clipPath></defs>'
             .format(x, y, w, h)
             + '<g id="PHOTO"><g clip-path="url(#ClipPhoto)">'
@@ -80,13 +80,12 @@ def carte():
         y += 82
         for nom, cases in lignes:
             yb = y + 70                                    # ligne de base du nom
-            g = [text(X0, yb, nom, 44, CH, HEROICA, "start", bold=True)]
+            g = [text(X0, yb, nom, 38, CH, HEROICA, "start", bold=True)]
             for (lab, p), cx in zip(reversed(cases), COLS):
                 if lab:
                     g.append(text(cx, yb - 50, lab, 22, CA, IMPACT, spacing=2))
-                g.append(ovale_prix(cx, yb - 13, 66, 32, prix(p), size=36))
-            g.append(f'<path d="M{X0} {yb + 30}H{X1}" stroke="{CA}" stroke-width="2.4" '
-                     f'stroke-dasharray="0.1 9" stroke-linecap="round"/>')
+                g.append(ovale_prix(cx, yb - 13, 66, 32, prix(p), size=31))
+            g.append(f'<path d="M{X0} {yb + 30}H{X1}" stroke="#E2C49E" stroke-width="2"/>')
             o.append(f'<g id="ligne-{nom.split()[0].lower()}">' + "".join(g) + '</g>')
             y += 118
         y += 40
