@@ -1,86 +1,120 @@
-"""Menu « Boissons fraîches » Galzin (reprise du visuel fourni), 40 x 60 cm.
+"""Menu « Boissons fraîches » Galzin, 40 x 60 cm — version charte (bandeau vague, logo, Impact + Eroika Slab,
+turquoise réservé au froid). Tarifs 2026 (fichier NOUVEAUX_TARIF_2026.xlsx, onglets
+« BSA - BOISSONS FROIDES » et « BA - BIERES »).
 
 Usage : python3 build.py  ->  galzin-menu-boissons-fraiches.svg (à ouvrir dans Illustrator,
 puis Fichier > Enregistrer sous > Adobe Illustrator (.ai)).
-Dessiné sur la grille du visuel d'origine (1024 x 1536) puis mis à l'échelle 40 x 60 cm.
-Chaque ligne de la carte est un groupe : nom, pointillés, prix.
+Dessiné sur une grille 1024 x 1536 puis mis à l'échelle 40 x 60 cm.
+Calques : FOND, VAGUES, PHOTO, LOGO, TITRE, CARTE (un groupe par ligne : nom + contenances + prix), MENTIONS.
 """
 import sys
 from pathlib import Path
 
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE.parents[1] / ".claude/skills/galzin-da/scripts"))
-from galzin_kit import C, HEROICA, svg, text, image  # noqa: E402
+from galzin_kit import C, IMPACT, HEROICA, svg, text, image  # noqa: E402
 
 W, H = 4000, 6000          # 40 x 60 cm
-K = W / 1024               # échelle grille d'origine -> 0,1 mm
-CH = C["chocolat"]
+GW, GH = 1024, 1536        # grille
+K = W / GW
+CH, CF, CR, CA, TQ = C["chocolat"], C["chocolat_fonce"], C["creme"], C["caramel"], "#3E8F90"
 
-BOISSONS = [
-    ("Fuzetea 33 cl", "2.20€"), ("Fuzetea 40 cl", "2.80€"), ("Coca Cola 33 cl", "2.20€"),
-    ("Coca Cola 50 cl", "2.80€"), ("Coca Zéro 33 cl", "2.20€"), ("Coca Zéro 50 cl", "2.80€"),
-    ("Coca Cherry 33 cl", "2.20€"), ("Coca Cherry 50 cl", "2.80€"), ("Coca Cola 1.25 l", "4.10€"),
-    ("Fanta 33 cl", "2.20€"), ("Fanta dragon 33 cl", "2.20€"), ("Fanta 50 cl", "2.80€"),
-    ("Tropico mini", "1.70€"), ("Tropico 33cl", "2.20€"), ("Tropico 40cl", "2.80€"),
-    ("Sprite 33 cl", "2.20€"), ("Sprite 50 cl", "2.80€"), ("Monster mangue 50 cl", "3.20€"),
-    ("Redbull 25 cl", "3.20€"), ("Maid orange 33 cl", "2.20€"), ("Maid pomme 33 cl", "2.20€"),
-    ("Heineken 33 cl", "2.80€"), ("Desperados 33 cl", "3.80€"), ("Bière artisanale", "3.80€"),
-    ("Volvic fraise ou citron 50 cl", "2.80€"), ("San Pellegrino / Perrier 50 cl", "2.50€"),
-    ("Eau 50 cl", "1.50€"), ("Eau 1.5 l", "2.50€"), ("Limonade 27,5 cl", "2.80€"),
+
+def prix(p):
+    return f"{p:.2f}".replace(".", ",") + "€"
+
+
+# (famille, [(nom, [(contenance, prix), ...]), ...])  — tarifs 2026, contenances de la plus petite à la plus grande
+CARTE = [
+    ("SODAS", [
+        ("Coca-Cola", [("33 cl", 2.25), ("50 cl", 2.85), ("1,25 l", 4.15)]),
+        ("Coca-Cola Zéro", [("33 cl", 2.25), ("50 cl", 2.85)]),
+        ("Coca-Cola Cherry", [("33 cl", 2.25), ("50 cl", 2.85)]),
+        ("Fanta", [("33 cl", 2.25), ("50 cl", 2.85)]),
+        ("Fanta Dragon", [("33 cl", 2.25)]),
+        ("Sprite", [("33 cl", 2.25), ("50 cl", 2.85)]),
+    ]),
+    ("THÉS GLACÉS & JUS", [
+        ("Fuzetea", [("33 cl", 2.25), ("40 cl", 2.85)]),
+        ("Tropico", [("mini", 1.75), ("33 cl", 2.25), ("40 cl", 2.85)]),
+        ("Minute Maid orange", [("33 cl", 2.25)]),
+        ("Minute Maid pomme", [("33 cl", 2.25)]),
+        ("Limonade", [("27,5 cl", 2.85)]),
+    ]),
+    ("ÉNERGISANTS", [
+        ("Monster mangue", [("50 cl", 3.25)]),
+        ("Red Bull", [("25 cl", 3.25)]),
+    ]),
+    ("EAUX", [
+        ("Eau", [("50 cl", 1.85), ("1,5 l", 2.95)]),
+        ("Volvic fraise ou citron", [("50 cl", 2.85)]),
+        ("San Pellegrino", [("50 cl", 2.55)]),
+        ("Perrier", [("50 cl", 2.85)]),
+    ]),
+    ("BIÈRES", [
+        ("Heineken", [("33 cl", 2.90)]),
+        ("Desperados", [("33 cl", 3.90)]),
+        ("Bière artisanale", [("", 3.90)]),
+    ]),
 ]
 
-
-def brin(cx, cy, sens=1, s=1.0):
-    """Petit brin de laurier vectoriel (tige + 3 paires de feuilles)."""
-    out = f'<g transform="translate({cx} {cy}) scale({sens * s} {s})" fill="{CH}">'
-    out += f'<path d="M-34 4C-10 2 10 -2 34 -6" fill="none" stroke="{CH}" stroke-width="2.4"/>'
-    for i, x in enumerate((-20, -2, 16)):
-        out += (f'<ellipse cx="{x}" cy="{-8 + i}" rx="8" ry="3.4" transform="rotate(-38 {x} {-8 + i})"/>'
-                f'<ellipse cx="{x + 2}" cy="{8 - i * 2}" rx="8" ry="3.4" transform="rotate(38 {x + 2} {8 - i * 2})"/>')
-    return out + f'<ellipse cx="38" cy="-7" rx="7" ry="3" transform="rotate(-10 38 -7)"/></g>'
+X0, X1 = 360, 994                 # colonne carte
+COLS = [994, 862, 730]            # bord droit des colonnes de prix (de droite à gauche)
 
 
-def cadre():
-    """Double cadre aux coins rentrants, comme l'original."""
-    def contour(m, r):
-        x0, y0, x1, y1 = m, m, 1024 - m, 1536 - m
-        return (f'M{x0 + r} {y0}H{x1 - r}A{r} {r} 0 0 0 {x1} {y0 + r}V{y1 - r}A{r} {r} 0 0 0 {x1 - r} {y1}'
-                f'H{x0 + r}A{r} {r} 0 0 0 {x0} {y1 - r}V{y0 + r}A{r} {r} 0 0 0 {x0 + r} {y0}Z')
-    return (f'<g id="CADRE" fill="none" stroke="{CH}">'
-            f'<path d="{contour(16, 26)}" stroke-width="2.2"/><path d="{contour(30, 22)}" stroke-width="1.4"/></g>')
+def vagues():
+    haut = "M0 0H1024V222C880 268 760 212 600 234C430 258 250 280 0 246Z"
+    lis = "M0 258C250 292 430 270 600 246C760 224 880 280 1024 234"
+    bas = "M0 1474C200 1446 380 1494 600 1470C800 1448 900 1426 1024 1436V1536H0Z"
+    lis_b = "M0 1462C200 1434 380 1482 600 1458C800 1436 900 1414 1024 1424"
+    return (f'<g id="VAGUES"><path fill="{CH}" d="{haut}"/>'
+            f'<path fill="none" stroke="{CA}" stroke-width="7" d="{lis}"/>'
+            f'<path fill="{CH}" d="{bas}"/><path fill="none" stroke="{CA}" stroke-width="7" d="{lis_b}"/></g>')
+
+
+def titre():
+    px, py, pw, ph = 650, 200, 340, 92
+    return ('<g id="TITRE">'
+            + text(642, 168, "BOISSONS", 150, CR, IMPACT, spacing=2)
+            + f'<g transform="rotate(-3 {px + pw / 2} {py + ph / 2})">'
+              f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="30" fill="url(#Turquoise)"/>'
+            + text(px + pw / 2, py + 66, "fraîches", 66, CR, HEROICA, italic=True, bold=True)
+            + '</g></g>')
 
 
 def carte():
-    o = []
-    y, pas = 445, 34.3
-    x_nom, x_prix, size = 386, 940, 23
-    for nom, prix in BOISSONS:
-        fin_nom = x_nom + len(nom) * size * 0.42
-        o.append(f'<g id="ligne-{nom.split()[0].lower()}">'
-                 + text(x_nom, y, nom, size, CH, HEROICA, "start")
-                 + f'<path d="M{fin_nom + 8:.0f} {y - 1}H{x_prix - 66}" stroke="{CH}" stroke-width="1.6" '
-                   f'stroke-dasharray="0.1 5" stroke-linecap="round"/>'
-                 + text(x_prix, y, prix, size, CH, HEROICA, "end") + '</g>')
-        y += pas
+    o, y = [], 312
+    for famille, lignes in CARTE:
+        o.append(f'<g id="famille-{famille.split()[0].lower()}">'
+                 + text(X0, y + 34, famille, 36, TQ, IMPACT, "start", spacing=1)
+                 + f'<path d="M{X0} {y + 46}H{X1}" stroke="{C["turquoise"]}" stroke-width="3.5"/></g>')
+        y += 52
+        for nom, cases in lignes:
+            yb = y + 30                                    # ligne de base du nom et des prix
+            g = [text(X0, yb, nom, 29, CH, HEROICA, "start", bold=True)]
+            for (lab, p), xd in zip(reversed(cases), COLS):
+                g.append(text(xd, yb, prix(p), 29, CH, HEROICA, "end", bold=True))
+                if lab:
+                    g.append(text(xd - 84, yb - 1, lab, 17, CA, IMPACT, "end"))
+            g.append(f'<path d="M{X0} {yb + 11}H{X1}" stroke="{CA}" stroke-width="1.8" '
+                     f'stroke-dasharray="0.1 6" stroke-linecap="round"/>')
+            o.append(f'<g id="ligne-{nom.lower().replace(" ", "-")}">' + "".join(g) + '</g>')
+            y += 40
+        y += 12
     return '<g id="CARTE">' + "".join(o) + '</g>'
 
 
 def menu():
-    L = [f'<rect width="1024" height="1536" fill="#FFFFFF"/>', cadre()]
-    L.append('<g id="PHOTO">' + image(HERE / "images/photo-coca.png", 34, 270, 351, 1140, 1400, id="photo-coca") + '</g>')
-    L.append(
-        '<g id="ENTETE">'
-        + image(HERE / "images/galzin-logo.png", 412, 50, 230, 230, 900, id="galzin-logo")
-        + f'<g stroke="{CH}" stroke-width="1.4"><path d="M50 189H205"/><path d="M288 189H388"/>'
-          f'<path d="M665 189H738"/><path d="M820 189H975"/></g>'
-        + brin(247, 188, 1) + brin(778, 188, -1)
-        + text(662, 382, "Boissons fraîches", 86, CH, HEROICA, italic=True, bold=True)
-        + f'<path d="M580 410C615 402 655 400 680 404" fill="none" stroke="{CH}" stroke-width="3.2" '
-          f'stroke-linecap="round"/>'
-        + '</g>')
-    L.append(carte())
-    L.append('<g id="PIED">' + brin(420, 1438, 1, 1.25) + brin(556, 1438, -1, 1.25)
-             + text(488, 1494, "Dans la limite des stocks disponibles", 17, CH, HEROICA) + '</g>')
+    L = [f'<g id="FOND"><rect width="{GW}" height="{GH}" fill="{CR}"/></g>', vagues(),
+         '<g id="PHOTO">' + image(HERE / "images/photo-coca-net.png", 14, 380, 330, 1072, 1400, id="photo-coca") + '</g>',
+         '<g id="LOGO">' + image(HERE / "images/galzin-logo.png", 30, 20, 204, 204, 900, id="galzin-logo") + '</g>',
+         titre(), carte(),
+         '<g id="MENTIONS">'
+         + text(GW / 2, GH - 40, "L'abus d'alcool est dangereux pour la santé, à consommer avec modération.",
+                17, CR, HEROICA, italic=True, bold=True)
+         + text(GW / 2, GH - 16, "Dans la limite des stocks disponibles · Photos non contractuelles",
+                17, CR, HEROICA, italic=True, bold=True)
+         + '</g>']
     body = f'<g transform="scale({K:.6f})">' + "\n".join(L) + '</g>'
     return svg(W, H, body, "Galzin - Menu boissons fraîches")
 
