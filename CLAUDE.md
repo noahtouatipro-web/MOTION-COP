@@ -20,6 +20,11 @@ Langue : l'utilisateur parle **français** — réponds en français, textes à 
   C'est la référence pour la charte — elle prime sur la section « Charte visuelle » ci-dessous.
 - `illustrator` : Illustrator via MCP (nécessite Illustrator ouvert sur l'ordinateur de l'utilisateur).
 - `replica-*` : pack de skills pour cloner / reconstruire une app (sans rapport avec Galzin).
+- **Marketing skills** (`coreyhaines31/marketingskills`, 53 skills copiés dans `.claude/skills/`) :
+  `copywriting`, `social`, `ad-creative`, `ads`, `seo-audit`, `emails`, `sms`, `offers`, `pricing`,
+  `marketing-plan`, `content-strategy`, `product-marketing`, etc. Pour le fond (quoi dire, quelle offre,
+  quel calendrier). Pour **fabriquer** une vidéo, rester sur `/hyperframes` (pas le skill `video`, qui
+  pousse vers Remotion / Veo / HeyGen). Mise à jour : `npx skills update`.
 - Voix off : connecteur **ElevenLabs** (à reconnecter sur le compte, avec le même compte ElevenLabs).
 - Guide d'édition manuelle dans Studio (pour l'utilisateur) : `GUIDE-MONTAGE.md`.
 
