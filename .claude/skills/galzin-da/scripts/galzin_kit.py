@@ -176,6 +176,72 @@ def svg(w, h, body, title):
             f'  <title>{escape(title, quote=False)}</title>{DEFS}\n{body}\n</svg>\n')
 
 
+_NUM = r"-?\d+(?:\.\d+)?(?:e-?\d+)?"
+_ATTRS = ("x", "y", "width", "height", "cx", "cy", "r", "rx", "ry", "x1", "x2", "y1", "y2",
+          "font-size", "stroke-width", "letter-spacing")
+
+
+def _fmt(v):
+    return f"{v:.2f}".rstrip("0").rstrip(".")
+
+
+def _scale_path(d, s):
+    """Met à l'échelle un attribut d (absolu ou relatif) ; pour les arcs, angle et drapeaux restent intacts."""
+    out, cmd, args = [], None, []
+    toks = re.findall(r"[A-Za-z]|" + _NUM, d)
+
+    def flush():
+        if cmd is None:
+            return
+        if cmd in "Aa":
+            for i, v in enumerate(args):
+                out.append(_fmt(v * s) if i % 7 in (0, 1, 5, 6) else _fmt(v))
+        else:
+            out.extend(_fmt(v * s) for v in args)
+    for t in toks:
+        if t.isalpha():
+            flush()
+            cmd, args = t, []
+            out.append(t)
+        else:
+            args.append(float(t))
+    flush()
+    return " ".join(out)
+
+
+def _scale_transform(t, s):
+    def rot(m):
+        a = m.group(1).replace(",", " ").split()
+        return "rotate(" + " ".join([a[0]] + [_fmt(float(v) * s) for v in a[1:]]) + ")"
+
+    def tra(m):
+        return "translate(" + " ".join(_fmt(float(v) * s) for v in m.group(1).replace(",", " ").split()) + ")"
+    return re.sub(r"translate\(([^)]*)\)", tra, re.sub(r"rotate\(([^)]*)\)", rot, t))
+
+
+def aplatir(body, s):
+    """Applique l'échelle s directement aux coordonnées (plus de <g transform="scale">) : dans Illustrator,
+    les textes s'ouvrent à leur vraie taille en points et les formes ne sont pas déformées."""
+    for a in _ATTRS:
+        body = re.sub(rf'(\s{a}=")({_NUM})"', lambda m: f'{m.group(1)}{_fmt(float(m.group(2)) * s)}"', body)
+    body = re.sub(r'(\sstroke-dasharray=")([^"]*)"',
+                  lambda m: m.group(1) + " ".join(_fmt(float(v) * s) for v in m.group(2).split()) + '"', body)
+    body = re.sub(r'(\sd=")([^"]*)"', lambda m: m.group(1) + _scale_path(m.group(2), s) + '"', body)
+    body = re.sub(r'(\stransform=")([^"]*)"', lambda m: m.group(1) + _scale_transform(m.group(2), s) + '"', body)
+    return body
+
+
+def svg_illustrator(w_mm, h_mm, body, grille_w, title):
+    """SVG prêt pour Illustrator : unités en points (1 unité = 1 pt), body dessiné sur une grille de largeur
+    grille_w et aplati à l'échelle réelle, groupes de premier niveau = éléments nommés (FOND, VAGUES…)."""
+    wpt, hpt = w_mm / 25.4 * 72, h_mm / 25.4 * 72
+    body = aplatir(_graisses(body), wpt / grille_w)
+    return (f'<?xml version="1.0" encoding="UTF-8"?>\n'
+            f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
+            f'width="{_fmt(wpt)}pt" height="{_fmt(hpt)}pt" viewBox="0 0 {_fmt(wpt)} {_fmt(hpt)}">\n'
+            f'  <title>{escape(title, quote=False)}</title>{DEFS}\n{body}\n</svg>\n')
+
+
 # --- Gabarit A4 ---------------------------------------------------------------------------
 def gabarit():
     W, H = 2100, 2970

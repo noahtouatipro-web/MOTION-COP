@@ -11,11 +11,9 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE.parents[1] / ".claude/skills/galzin-da/scripts"))
-from galzin_kit import C, IMPACT, HEROICA, svg, text, image, ovale_prix  # noqa: E402
+from galzin_kit import C, IMPACT, HEROICA, svg_illustrator, text, image, ovale_prix  # noqa: E402
 
-W, H = 2100, 2970          # A4
 GW, GH = 1024, 1448        # grille
-K = W / GW
 CH, CF, CR, CA = C["chocolat"], C["chocolat_fonce"], C["creme"], C["caramel"]
 
 
@@ -102,8 +100,8 @@ def menu():
          '<g id="MENTIONS">' + text(GW - 40, GH - 30, "Photos non contractuelles", 22, CR, HEROICA, "end",
                                     italic=True, bold=True)
          + '</g>']
-    body = f'<g transform="scale({K:.6f})">' + "\n".join(L) + '</g>'
-    return svg(W, H, body, "Galzin - Menu boissons chaudes")
+    # coordonnées aplaties en points : textes à leur vraie taille dans Illustrator, groupes nommés de 1er niveau
+    return svg_illustrator(210, 297, "\n".join(L), GW, "Galzin - Menu boissons chaudes")
 
 
 if __name__ == "__main__":
